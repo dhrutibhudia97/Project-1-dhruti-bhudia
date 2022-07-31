@@ -1,1 +1,53 @@
 p {color:red}
+
+body {
+    font-family:sans-serif;
+    font-weight: 300;
+    color:darkgray
+}
+
+h1 {font-family: sans-serif;
+text-transform: uppercase;
+letter-spacing: 4px;
+color:darkslategray
+}
+/*logo */
+
+#logo {
+    float:left;
+    font-size:275%;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 60px;
+}
+
+#menu li {
+    float: right;
+    list-style-type:none;
+    margin-right: 60px;
+}
+
+#menu a {
+    text-decoration:none;
+    color:darkgray;
+}
+
+#menu a:hover {
+    text-decoration-line: underline;
+}
+
+.active {
+    border-bottom: 1px solid darkgrey;
+    color:#404040;
+}
+
