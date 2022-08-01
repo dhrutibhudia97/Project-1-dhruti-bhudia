@@ -18,6 +18,7 @@ color:darkslategray
     font-size:275%;
     margin-left: 30px;
     margin-top: 7px;
+    align-items: center;
 }
 
 /* navigation links */
@@ -25,6 +26,7 @@ color:darkslategray
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
+    align-items: center;
 }
 
 #menu, #logo {
@@ -51,3 +53,38 @@ color:darkslategray
     color:#404040;
 }
 
+
+/* footer */
+footer {
+    height: 120px;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#d3d3d3;
+  color:rgb(153, 153, 210);
+  text-align: center;
+
+}
+
+.social-networks{
+    text-align: center;
+    margin:20px auto;
+}
+
+.social-networks > li {
+    display: inline;
+    align-items: center;
+}
+
+.social-networks i {
+    font-size: 130%;
+    margin: 1%;
+    padding: 5%;
+    color:#7578ae;
+
+}
