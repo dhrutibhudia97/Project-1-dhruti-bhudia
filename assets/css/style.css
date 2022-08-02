@@ -1,10 +1,10 @@
-p {color:red}
+
 
 body {
     font-family:sans-serif;
     font-weight: 300;
     color:darkgray;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
     max-width: 100%;
 }
 
@@ -133,7 +133,7 @@ height: 175px;
 background-color: rgb(156, 97, 156,0.6);
 
 bottom:30px;
-left:180px;
+left:250px;
 position: absolute;
 }
 
@@ -145,9 +145,55 @@ position: absolute;
     max-width:100%;
     padding:10px;
     margin-top:5px;
+    
  }
 
 #stress-header {
     margin: 10px 20px;
     color:rgb(54, 53, 53);
 }
+
+
+/*picture panel on home page */
+#pic-one {
+    width: 25%;
+    height:250px;
+    background: url(../images/woman\ making\ smoothie.jpg) no-repeat center;
+    background-size: contain;
+    float: left;
+}
+#pic-two {
+    width: 25%;
+    height:250px;
+    background: url(../images/three\ women\ hiking.jpg) no-repeat center;
+    background-size: contain;
+    float: left;
+}
+#pic-three {
+    width: 25%;
+    height:250px;
+    background: url(../images/man\ sleeping.webp) no-repeat center;
+    background-size: contain;
+    float: left;
+}
+#pic-four {
+    width: 25%;
+    height:250px;
+    background: url(../images/three\ woman\ yoga\ stretch.jpeg) no-repeat center;
+    background-size: contain;
+    float: left;
+}
+
+#picture-panel {
+    width:100%;
+    margin:10px;
+    font-family: sans-serif;
+    font-size:30px;
+    float:left;
+}
+
+#picture-panel > p {
+    color:aqua;
+}
+
+
