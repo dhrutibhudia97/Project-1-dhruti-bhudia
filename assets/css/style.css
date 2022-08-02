@@ -5,6 +5,7 @@ body {
     font-weight: 300;
     color:darkgray;
     margin-bottom: 90px;
+    max-width: 100%;
 }
 
 h1 {font-family: sans-serif;
@@ -138,13 +139,15 @@ position: absolute;
 
 /* stress section styling */
  #stress {
-    color:black;
+    color:rgb(54, 53, 53);
     margin:auto;
     background-color: rgb(136, 192, 211,.5);
-    width:100%;
+    max-width:100%;
     padding:10px;
+    margin-top:5px;
  }
 
 #stress-header {
     margin: 10px 20px;
+    color:rgb(54, 53, 53);
 }
