@@ -25,7 +25,7 @@ color:darkslategray
 
 #menu {
     font-size: 120%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     align-items: center;
 }
 
@@ -84,7 +84,53 @@ footer {
 .social-networks i {
     font-size: 130%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color:#7578ae;
 
+}
+
+/*hero image and cover text */
+#cover-text, #cover-text h2 {
+    color:#d3d3d3
+}
+
+#hero-outer-one {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image-one {
+    height: 600px;
+    width:100%;
+    background: url(../images/meditation\ at\ home.jpg) no-repeat center center;
+
+/* animates zoom effect on home page */
+animation-name: hero-zoom;
+animation-duration: 6s;
+animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero images */
+@keyframes hero-zoom {
+    from{transform: scale(1);}
+    to{transform: scale(1.2);}
+}
+
+/* cover text box */
+
+#cover-text {
+    font-size: 110%;
+    font-family: sans-serif;
+    text-align: center;
+    
+width: 400px;
+height: 175px;
+
+background-color: rgb(156, 97, 156,0.6);
+
+bottom:30px;
+left:180px;
+position: absolute;
 }
