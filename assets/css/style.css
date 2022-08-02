@@ -3,7 +3,8 @@ p {color:red}
 body {
     font-family:sans-serif;
     font-weight: 300;
-    color:darkgray
+    color:darkgray;
+    margin-bottom: 90px;
 }
 
 h1 {font-family: sans-serif;
@@ -16,7 +17,7 @@ color:darkslategray
 #logo {
     float:left;
     font-size:275%;
-    margin-left: 30px;
+    margin-left: 150px;
     margin-top: 7px;
     align-items: center;
 }
@@ -56,7 +57,7 @@ color:darkslategray
 
 /* footer */
 footer {
-    height: 120px;
+    height: 80px;
 
 }
 
@@ -133,4 +134,17 @@ background-color: rgb(156, 97, 156,0.6);
 bottom:30px;
 left:180px;
 position: absolute;
+}
+
+/* stress section styling */
+ #stress {
+    color:black;
+    margin:auto;
+    background-color: rgb(136, 192, 211,.5);
+    width:100%;
+    padding:10px;
+ }
+
+#stress-header {
+    margin: 10px 20px;
 }
