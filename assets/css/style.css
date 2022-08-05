@@ -18,7 +18,7 @@ color:darkslategray
 #logo {
     float:left;
     font-size:275%;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 7px;
     align-items: center;
 }
@@ -165,6 +165,8 @@ section p {
     width:250px;
     display: inline-block;
     float:none;
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
@@ -176,6 +178,7 @@ section p {
     background: url(../images/woman\ making\ smoothie.jpg) no-repeat center;
     background-size: contain;
     float: left;
+    background-size: contain;
 }
 #pic-two {
     width: 25%;
@@ -183,6 +186,7 @@ section p {
     background: url(../images/three\ women\ hiking.jpg) no-repeat center;
     background-size: contain;
     float: left;
+    background-size: contain;
 }
 #pic-three {
     width: 25%;
@@ -190,6 +194,7 @@ section p {
     background: url(../images/man\ sleeping.webp) no-repeat center;
     background-size: contain;
     float: left;
+    background-size: contain;
 }
 #pic-four {
     width: 25%;
@@ -197,6 +202,7 @@ section p {
     background: url(../images/three\ woman\ yoga\ stretch.jpeg) no-repeat center;
     background-size: contain;
     float: left;
+    background-size: contain;
 }
 
 #picture-panel {
@@ -276,7 +282,8 @@ position: absolute;
         padding:5px;
         }
 
-    /*sleep paragraph */    
+    /*sleep paragraph */   
+    
     #sleep {
             color:black;
             margin:auto;
@@ -285,3 +292,21 @@ position: absolute;
             padding:5px;
             }
 
+
+            #light-pic {
+                background: url(../images/woman\ next\ to\ sunny\ window.jpg) no-repeat center center;
+                height:200px;
+                width: 250px;
+                background-size: contain;
+                float:none;
+                display:inline-block;
+            }
+
+            #lamp-pic {
+                background: url(../images/woman\ with\ sad\ lamp.jpg) no-repeat;
+                height:200px;
+                width: 250px;
+                background-size: contain;
+                float:none;
+                display: inline-block;
+            }
