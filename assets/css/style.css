@@ -258,13 +258,15 @@ position: absolute;
 
 /* nature paragraph */
 
-#nature {
+    #nature {
     color:black;
     margin:auto;
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
     padding:5px;
     }
+
+    /*light paragraph */
 
     #light {
         color:black;
@@ -274,4 +276,12 @@ position: absolute;
         padding:5px;
         }
 
+    /*sleep paragraph */    
+    #sleep {
+            color:black;
+            margin:auto;
+            background-color: rgba(159, 161, 241, 0.829);
+            width:100%;
+            padding:5px;
+            }
 
