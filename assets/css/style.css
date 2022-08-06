@@ -282,6 +282,24 @@ position: absolute;
         padding:5px;
         }
 
+        #light-pic {
+            background: url(../images/woman\ next\ to\ sunny\ window.jpg) no-repeat center center;
+            height:200px;
+            width: 250px;
+            background-size: contain;
+            float:none;
+            display:inline-block;
+        }
+
+        #lamp-pic {
+            background: url(../images/woman\ with\ sad\ lamp.jpg) no-repeat;
+            height:200px;
+            width: 250px;
+            background-size: contain;
+            float:none;
+            display: inline-block;
+        } 
+
     /*sleep paragraph */   
     
     #sleep {
@@ -292,21 +310,13 @@ position: absolute;
             padding:5px;
             }
 
+    /* yoga paragraph */
+     #yoga {
+        color:black;
+            margin:auto;
+            background-color: rgba(208, 159, 241, 0.829);
+            width:100%;
+            padding:5px;
 
-            #light-pic {
-                background: url(../images/woman\ next\ to\ sunny\ window.jpg) no-repeat center center;
-                height:200px;
-                width: 250px;
-                background-size: contain;
-                float:none;
-                display:inline-block;
-            }
-
-            #lamp-pic {
-                background: url(../images/woman\ with\ sad\ lamp.jpg) no-repeat;
-                height:200px;
-                width: 250px;
-                background-size: contain;
-                float:none;
-                display: inline-block;
-            }
+     }
+            
