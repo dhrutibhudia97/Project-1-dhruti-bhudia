@@ -145,12 +145,11 @@ position: absolute;
     width:100%;
     padding:10px;
     margin-top:5px;   
-    display: inline-block;
+    
  }
 
 section p {
-    display: inline-block;
-    float:none;
+
     color:rgb(128, 122, 122);
  }
 
@@ -163,8 +162,7 @@ section p {
     background-image: url(../images/stressed\ man.jpg);
     height:200px;
     width:250px;
-    display: inline-block;
-    float:none;
+    float:left;
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -173,45 +171,44 @@ section p {
 
 /*picture panel on home page */
 #pic-one {
-    width: 25%;
+    width: 300px;
     height:250px;
     background: url(../images/woman\ making\ smoothie.jpg) no-repeat center;
     background-size: contain;
-    float: left;
-    background-size: contain;
+    align-content: center;
+    
+  
 }
 #pic-two {
-    width: 25%;
+    width: 300px;
     height:250px;
     background: url(../images/three\ women\ hiking.jpg) no-repeat center;
     background-size: contain;
-    float: left;
-    background-size: contain;
+    align-content: center;
 }
 #pic-three {
-    width: 25%;
+    width: 300px;
     height:250px;
     background: url(../images/man\ sleeping.webp) no-repeat center;
     background-size: contain;
-    float: left;
-    background-size: contain;
+    align-content: center;
 }
 #pic-four {
-    width: 25%;
+    width: 300px;
     height:250px;
     background: url(../images/three\ woman\ yoga\ stretch.jpeg) no-repeat center;
     background-size: contain;
-    float: left;
-    background-size: contain;
+    align-content: center;
 }
 
 #picture-panel {
     width:100%;
-    margin:10px;
     font-family: sans-serif;
     font-size:30px;
-    float:left;
+    float:none;
+    
 }
+
 
 
 /*hero image 2 on mind page and cover text */
