@@ -154,14 +154,14 @@ section p {
  }
 
 #stress-header {
-    margin: 10px 20px;
+    margin: 10px 10px;
     color:rgb(54, 53, 53);  
 }
 
 #stress-pic {
     background-image: url(../images/stressed\ man.jpg);
-    height:200px;
-    width:250px;
+    height: 280px;
+    width:300px;
     float:left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -176,6 +176,7 @@ section p {
     background: url(../images/woman\ making\ smoothie.jpg) no-repeat center;
     background-size: contain;
     align-content: center;
+    margin-left:10px;
     
   
 }
@@ -185,6 +186,7 @@ section p {
     background: url(../images/three\ women\ hiking.jpg) no-repeat center;
     background-size: contain;
     align-content: center;
+    margin-left:10px;
 }
 #pic-three {
     width: 300px;
@@ -192,6 +194,7 @@ section p {
     background: url(../images/man\ sleeping.webp) no-repeat center;
     background-size: contain;
     align-content: center;
+    margin-left:10px;
 }
 #pic-four {
     width: 300px;
@@ -199,6 +202,7 @@ section p {
     background: url(../images/three\ woman\ yoga\ stretch.jpeg) no-repeat center;
     background-size: contain;
     align-content: center;
+    margin-left:10px;
 }
 
 #picture-panel {
@@ -206,10 +210,11 @@ section p {
     font-family: sans-serif;
     font-size:30px;
     float:none;
-    
 }
 
-
+table {
+    margin:10px;
+}
 
 /*hero image 2 on mind page and cover text */
 #cover-text, #cover-text h2 {
@@ -306,6 +311,15 @@ position: absolute;
             width:100%;
             padding:5px;
             }
+    #sleep-pic {
+        background: url(../images/healthy\ sleep\ habits.webp) no-repeat;
+            height:200px;
+            width: 250px;
+            background-size: contain;
+            float:none;
+            display: inline-block;
+
+    }
 
     /* yoga paragraph */
      #yoga {
