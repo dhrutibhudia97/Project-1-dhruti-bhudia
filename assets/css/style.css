@@ -215,6 +215,9 @@ section p {
 table {
     margin:10px;
 }
+table td {
+    align-content: center;
+}
 
 /*hero image 2 on mind page and cover text */
 #cover-text, #cover-text h2 {
@@ -328,6 +331,19 @@ position: absolute;
             background-color: rgba(208, 159, 241, 0.829);
             width:100%;
             padding:5px;
-
      }
+
+     /* body page */
+
+     /*exercise section */
+
+     #exercise {
+        color:black;
+        margin:auto;
+        background-color: rgba(232, 144, 50, 0.829);
+        width:100%;
+        padding:5px;
+        clear: both;
+     }
+
             
