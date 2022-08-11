@@ -3,7 +3,7 @@
 body {
     font-family:sans-serif;
     font-weight: 300;
-    color:darkgray;
+    color:black;
     margin-bottom: 100px;
     max-width: 100%;
 }
@@ -18,7 +18,7 @@ color:darkslategray
 #logo {
     float:left;
     font-size:275%;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 7px;
     align-items: center;
 }
@@ -104,6 +104,7 @@ footer {
 }
 
 #hero-image-one {
+    clear: both;
     height: 600px;
     width:100%;
     background: url(../images/meditation\ at\ home.jpg) no-repeat center center;
@@ -114,7 +115,7 @@ animation-duration: 6s;
 animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero images */
+/* creates the level of zoom for hero image 1 */
 @keyframes hero-zoom {
     from{transform: scale(1);}
     to{transform: scale(1.2);}
@@ -165,6 +166,7 @@ section p {
     float:left;
     background-size: contain;
     background-repeat: no-repeat;
+    vertical-align:center;
     
 }
 
@@ -210,6 +212,7 @@ section p {
     font-family: sans-serif;
     font-size:30px;
     float:none;
+    text-align: center;
 }
 
 table {
@@ -225,6 +228,7 @@ table td {
 }
 
 #hero-outer-two {
+    clear:both;
     height: 600px;
     width:100%;
     overflow: hidden;
@@ -242,7 +246,7 @@ animation-duration: 6s;
 animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero images */
+/* creates the level of zoom for hero image 2 */
 @keyframes hero-zoom {
     from{transform: scale(1);}
     to{transform: scale(1.2);}
@@ -338,18 +342,18 @@ position: absolute;
      /*exercise section */
 
      #exercise {
+        clear: both;
         color:black;
-        margin:auto;
         background-color: rgba(232, 144, 50, 0.829);
         width:100%;
-        padding:5px;
-        clear: both;
-        ;
+        padding:auto;
+        vertical-align: top;
+        
      }
 
      #plank-pic {
         background: url(../images/man\ planking\ at\ home.jpg) no-repeat center center;
-            height: 250px;
+            height: 240px;
             width:300px;
             background-size: contain;
             float:none;
@@ -359,7 +363,7 @@ position: absolute;
 
      #sweaty-woman-pic {
         background: url(../images/woman\ sweaty\ from\ run.jpg) no-repeat center center;
-            height: 250px;
+            height: 240px;
             width:300px;
             background-size: contain;
             float:none;
@@ -368,7 +372,7 @@ position: absolute;
      }
      #woman-stretching-pic {
         background: url(../images/woman\ stretching\ at\ home.jpg) no-repeat center center;
-            height: 250px;
+            height: 240px;
             width:300px;
             background-size: contain;
             float:none;
