@@ -315,7 +315,7 @@ position: absolute;
             padding:5px;
             }
     #sleep-pic {
-        background: url(../images/healthy\ sleep\ habits.webp) no-repeat;
+        background: url(../images/healthy\ sleep\ habits.webp) no-repeat center center;
             height:200px;
             width: 250px;
             background-size: contain;
@@ -344,6 +344,36 @@ position: absolute;
         width:100%;
         padding:5px;
         clear: both;
+        ;
+     }
+
+     #plank-pic {
+        background: url(../images/man\ planking\ at\ home.jpg) no-repeat center center;
+            height: 250px;
+            width:300px;
+            background-size: contain;
+            float:none;
+            display:block;
+            margin: 5px;
+     }
+
+     #sweaty-woman-pic {
+        background: url(../images/woman\ sweaty\ from\ run.jpg) no-repeat center center;
+            height: 250px;
+            width:300px;
+            background-size: contain;
+            float:none;
+            display: block;
+            margin: 5px;
+     }
+     #woman-stretching-pic {
+        background: url(../images/woman\ stretching\ at\ home.jpg) no-repeat center center;
+            height: 250px;
+            width:300px;
+            background-size: contain;
+            float:none;
+            display: block;
+            margin: 5px;
      }
 
      #heavy-exercise {
@@ -373,5 +403,22 @@ position: absolute;
         width:100%;
         padding:5px;
         clear: both;
+     }
 
+     #bloat-pic {
+        background: url(../images/belly\ bloat.jpg) no-repeat center center;
+            height: 250px;
+            width:300px;
+            background-size: contain;
+            float:none;
+            display: inline-block;
+     }
+     
+     #drinking-water-pic {
+        background: url(../images/drinking\ water.jpg) no-repeat center center;
+            height: 250px;
+            width:300px;
+            background-size: contain;
+            float:none;
+            display: inline-block;
      }
