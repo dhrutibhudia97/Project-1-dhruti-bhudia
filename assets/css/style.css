@@ -346,4 +346,32 @@ position: absolute;
         clear: both;
      }
 
+     #heavy-exercise {
+        color:black;
+        margin:auto;
+        background-color: rgba(230, 76, 49, 0.8);
+        width:100%;
+        padding:5px;
+        clear: both;
+
+     }
+
+     #light-exercise {
+        color:black;
+        margin:auto;
+        background-color: rgba(232, 223, 131, 0.829);
+        width:100%;
+        padding:5px;
+        clear: both;
+
+     }
             
+     #bloat {
+        color:black;
+        margin:auto;
+        background-color: rgba(113, 203, 223, 0.829);
+        width:100%;
+        padding:5px;
+        clear: both;
+
+     }
