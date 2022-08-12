@@ -7,14 +7,12 @@ body {
     margin-bottom: 100px;
     max-width: 100%;
 }
-
 h1 {font-family: sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
 color:darkslategray
 }
 /*logo */
-
 #logo {
     float:left;
     font-size:275%;
@@ -22,46 +20,35 @@ color:darkslategray
     margin-top: 7px;
     align-items: center;
 }
-
 /* navigation links */
-
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
     align-items: center;
 }
-
 #menu, #logo {
     line-height: 60px;
 }
-
 #menu li {
     float: right;
     list-style-type:none;
     margin-right: 60px;
 }
-
 #menu a {
     text-decoration:none;
     color:darkgray;
 }
-
 #menu a:hover {
     text-decoration-line: underline;
 }
-
 .active {
     border-bottom: 1px solid darkgrey;
     color:#404040;
 }
-
-
 /* footer */
 footer {
     height: 80px;
-
 }
-
 .footer {
   position: fixed;
   left: 0;
@@ -70,59 +57,47 @@ footer {
   background-color:#d3d3d3;
   color:rgb(153, 153, 210);
   text-align: center;
-
 }
-
 .social-networks{
     text-align: center;
     margin:20px auto;
 }
-
 .social-networks > li {
     display: inline;
     align-items: center;
 }
-
 .social-networks i {
     font-size: 130%;
     margin: 1%;
     padding: 1%;
     color:#7578ae;
-
 }
-
 /*hero image and cover text */
 #cover-text, #cover-text h2 {
     color:#d3d3d3
 }
-
 #hero-outer-one {
     height: 600px;
     width:100%;
     overflow: hidden;
     position: relative;
 }
-
 #hero-image-one {
     clear: both;
     height: 600px;
     width:100%;
     background: url(../images/meditation\ at\ home.jpg) no-repeat center center;
-
 /* animates zoom effect on home page */
 animation-name: hero-zoom;
 animation-duration: 6s;
 animation-fill-mode: forwards;
 }
-
 /* creates the level of zoom for hero image 1 */
 @keyframes hero-zoom {
     from{transform: scale(1);}
     to{transform: scale(1.2);}
 }
-
 /* cover text box */
-
 #cover-text {
     font-size: 110%;
     font-family: sans-serif;
@@ -130,9 +105,7 @@ animation-fill-mode: forwards;
     
 width: 400px;
 height: 175px;
-
 background-color: rgb(156, 97, 156,0.6);
-
 bottom: 25px;
 left: 75px;
 position: absolute;
@@ -148,17 +121,13 @@ position: absolute;
     margin-top:5px;   
     
  }
-
 section p {
-
     color:rgb(128, 122, 122);
  }
-
 #stress-header {
     margin: 10px 10px;
     color:rgb(54, 53, 53);  
 }
-
 #stress-pic {
     background-image: url(../images/stressed\ man.jpg);
     height: 280px;
@@ -169,8 +138,6 @@ section p {
     vertical-align:center;
     
 }
-
-
 /*picture panel on home page */
 #pic-one {
     width: 300px;
@@ -206,7 +173,6 @@ section p {
     align-content: center;
     margin-left:10px;
 }
-
 #picture-panel {
     width:100%;
     font-family: sans-serif;
@@ -214,19 +180,16 @@ section p {
     float:none;
     text-align: center;
 }
-
 table {
     margin:10px;
 }
 table td {
     align-content: center;
 }
-
 /*hero image 2 on mind page and cover text */
 #cover-text, #cover-text h2 {
     color:#d3d3d3
 }
-
 #hero-outer-two {
     clear:both;
     height: 600px;
@@ -234,26 +197,21 @@ table td {
     overflow: hidden;
     position: relative;
 }
-
 #hero-image-two {
     height: 600px;
     width:100%;
     background: url(../images/hike\ photo\ 1.jpg) no-repeat center center;
-
 /* animates zoom effect on home page */
 animation-name: hero-zoom;
 animation-duration: 6s;
 animation-fill-mode: forwards;
 }
-
 /* creates the level of zoom for hero image 2 */
 @keyframes hero-zoom {
     from{transform: scale(1);}
     to{transform: scale(1.2);}
 }
-
 /* cover text two box */
-
 #cover-text-two {
     font-size: 110%;
     font-family: sans-serif;
@@ -263,16 +221,13 @@ animation-fill-mode: forwards;
     
 width: 300px;
 height: 160px;
-
 background-color: rgba(214, 150, 52, 0.6);
-
 top: 60px;
 left: 150px;
 position: absolute;
 }
 
 /* nature paragraph */
-
     #nature {
     color:black;
     margin:auto;
@@ -280,9 +235,7 @@ position: absolute;
     width:100%;
     padding:5px;
     }
-
     /*light paragraph */
-
     #light {
         color:black;
         margin:auto;
@@ -290,7 +243,6 @@ position: absolute;
         width:100%;
         padding:5px;
         }
-
         #light-pic {
             background: url(../images/woman\ next\ to\ sunny\ window.jpg) no-repeat center center;
             height:200px;
@@ -299,7 +251,6 @@ position: absolute;
             float:none;
             display:inline-block;
         }
-
         #lamp-pic {
             background: url(../images/woman\ with\ sad\ lamp.jpg) no-repeat;
             height:200px;
@@ -308,7 +259,6 @@ position: absolute;
             float:none;
             display: inline-block;
         } 
-
     /*sleep paragraph */   
     
     #sleep {
@@ -325,9 +275,7 @@ position: absolute;
             background-size: contain;
             float:none;
             display: inline-block;
-
     }
-
     /* yoga paragraph */
      #yoga {
         color:black;
@@ -336,11 +284,8 @@ position: absolute;
             width:100%;
             padding:5px;
      }
-
      /* body page */
-
      /*exercise section */
-
      #exercise {
         clear: both;
         color:black;
@@ -348,9 +293,8 @@ position: absolute;
         width:100%;
         padding:5px;
         vertical-align: top;
-        
-     }
 
+     }
      #plank-pic {
         background: url(../images/man\ planking\ at\ home.jpg) no-repeat center center;
             height: 240px;
@@ -360,7 +304,6 @@ position: absolute;
             display:block;
             margin: 5px;
      }
-
      #sweaty-woman-pic {
         background: url(../images/woman\ sweaty\ from\ run.jpg) no-repeat center center;
             height: 240px;
@@ -379,7 +322,6 @@ position: absolute;
             display: block;
             margin: 5px;
      }
-
      #heavy-exercise {
         color:black;
         margin:auto;
@@ -387,9 +329,7 @@ position: absolute;
         width:100%;
         padding:5px;
         clear: both;
-
      }
-
      #light-exercise {
         color:black;
         margin:auto;
@@ -397,7 +337,6 @@ position: absolute;
         width:100%;
         padding:5px;
         clear: both;
-
      }
             
      #bloat {
@@ -408,7 +347,6 @@ position: absolute;
         padding:5px;
         clear: both;
      }
-
      #bloat-pic {
         background: url(../images/belly\ bloat.jpg) no-repeat center center;
             height: 250px;
@@ -429,4 +367,4 @@ position: absolute;
 
      iframe {
         margin:15px;
-     }
+     } 
