@@ -116,15 +116,12 @@ position: absolute;
     color:rgb(54, 53, 53);
     margin:auto;
     background-color: rgb(136, 192, 211,.5);
-    width:100%;
+    min-width: 100%;
     padding:10px;
     margin-top:5px;   
-    
  }
-section p {
-    color:rgb(128, 122, 122);
- }
-#stress-header {
+
+#stress-text {
     margin: 10px 10px;
     color:rgb(54, 53, 53);  
 }
@@ -184,6 +181,9 @@ table {
     margin:10px;
 }
 table td {
+    align-content: center;
+}
+table th {
     align-content: center;
 }
 /*hero image 2 on mind page and cover text */
@@ -368,3 +368,72 @@ position: absolute;
      iframe {
         margin:15px;
      } 
+
+
+/* For medium screen sized from 950px wide and down*/
+@media screen and (max-width:900px) {
+    #menu {
+        clear:left;
+        float:left;
+        margin-left:30px;
+        margin-bottom:20px;
+        line-height:25px;
+    }
+
+    #cover-text {
+        left:50px;
+        width:275px;
+        height:225px;
+    }
+
+#stress table {
+    display:grid;
+    place-items:center;
+}    
+
+#picture-panel table {
+    display:block;
+}
+table tr {
+    display:inline-block;
+}
+
+table th {
+    display: inline-block;
+    text-align: center;
+}
+
+table td {
+    display: inline-block;
+    place-items: center;
+}
+
+#stress-pic {
+    display: block;
+    
+}
+
+section {
+    width:100%;
+    }
+
+
+#cover-text-two {
+    left:30px;
+}
+
+table {
+    text-align: center;
+}
+
+ul {
+    list-style-position:inside;
+    padding-left:0;
+    text-align: left;
+    margin-left:20%;
+
+}
+
+
+
+}
