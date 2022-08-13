@@ -58,19 +58,25 @@ footer {
   text-align: center;
 }
 .social-networks{
-    text-align: center;
-    margin:20px auto;
+     margin: 18px 30px;
 }
+
 .social-networks > li {
     display: inline;
     align-items: center;
+    display: inline;
+    float: left;
+    padding-left: 100px;
+    text-align: center;
+    
 }
 .social-networks i {
-    font-size: 130%;
+    font-size: 140%;
     margin: 1%;
-    padding: 1%;
+    padding-top: 13px;
     color:#7578ae;
 }
+
 /*hero image and cover text */
 #cover-text, #cover-text h2 {
     color:#d3d3d3
@@ -136,13 +142,11 @@ animation-fill-mode: forwards;
 /*picture panel on home page */
 
 /* Four image containers */
-    .column {
-        width: 25%;
-        height:100%;
-        object-fit: contain;
+    .column-pic {
+        max-width: 25%;
+        height:250px;
+        object-fit:contain;
         overflow: hidden;
-        
-       
       }
       
     /* Clear floats after image containers */
