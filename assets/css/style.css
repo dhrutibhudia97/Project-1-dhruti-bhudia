@@ -4,6 +4,7 @@ body {
     color:black;
     margin-bottom: 100px;
     max-width: 100%;
+    
 }
 h1 {font-family: sans-serif;
 text-transform: uppercase;
@@ -133,24 +134,27 @@ animation-fill-mode: forwards;
     
 }
 /*picture panel on home page */
-img {
-    width:auto;
-    height:auto;
-}
-#picture-panel {
-    clear:both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    } 
 
-#picture-panel > img {
-        width: 100%;   
-    } 
-
-#picture-panel-text {
-        margin:20px;
-    }
+/* Four image containers */
+    .column {
+        width: 25%;
+        height:100%;
+        object-fit: contain;
+        overflow: hidden;
+        
+       
+      }
+      
+    /* Clear floats after image containers */
+    .picture-panel {
+        width:100%;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+      }
+      
    
 /*hero image 2 on mind page and cover text */
 #cover-text, #cover-text h2 {
@@ -257,36 +261,40 @@ position: absolute;
         color:black;
         background-color: rgba(232, 144, 50, 0.829);
         width:100%;
-        padding:5px;
-        vertical-align: top;
+        padding: 5px;
+        vertical-align: text-top;
+        padding: 10px;
 
      }
      #plank-pic {
         background: url(../images/man\ planking\ at\ home.jpg) no-repeat center center;
-            height: 240px;
-            width:300px;
+            height: 200px;
+            width:250px;
             background-size: contain;
             float:none;
             display:block;
-            margin: 5px;
+            margin: 2px;
+            
      }
      #sweaty-woman-pic {
         background: url(../images/woman\ sweaty\ from\ run.jpg) no-repeat center center;
-            height: 240px;
-            width:300px;
+            height: 200px;
+            width:250px;
             background-size: contain;
             float:none;
             display: block;
-            margin: 5px;
+            margin: 2px;
+           
      }
      #woman-stretching-pic {
         background: url(../images/woman\ stretching\ at\ home.jpg) no-repeat center center;
-            height: 240px;
-            width:300px;
+            height: 200px;
+            width:250px;
             background-size: contain;
             float:none;
             display: block;
-            margin: 5px;
+            margin: 2px;
+            
      }
      #heavy-exercise {
         color:black;
@@ -356,17 +364,16 @@ position: absolute;
     display:inline-block;
     place-items:center;
 }    
-
+/*
 #picture-panel {
     column-count: 2;
-}
+}  */
 
 table tr,th,td {
     display:inline-block;
     text-align:center;
     place-items: center;
 }
-
 
 
 #stress-pic {
@@ -395,13 +402,16 @@ ul {
 
 }
 
-
+#exercise-pic-panel {
+    width:100%;
+    text-align: center;
 }
 
-/* for small screen sizes 800px and down */
+
+/* for small screen sizes 800px and down 
 @media screen and (max-width:800px){
     #picture-panel {
         column-count: 1;
     }
-    
 }
+*/
