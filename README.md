@@ -37,8 +37,7 @@ pictures from
 [three woman doing yoga stretch - https://www.yogabasics.com/practice/yoga-for-beginners/]
 
 - __Footer__
-Footer at the bottom of the page contains icons for social media platforms facebook, instagram and twitter and links to these pages. Encouraging viewers to share what works for them using the hashtag #healthathome.
-Sticky footer allows it to be visible at bottom of the page while viewers scroll through the site.
+Footer at the bottom of the page contains icons for social media platforms facebook, instagram and twitter and links to these pages, a
 
 
 -__

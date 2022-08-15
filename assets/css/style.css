@@ -4,6 +4,8 @@ body {
     color:black;
     margin-bottom: 100px;
     max-width: 100%;
+    overflow-x: hidden;
+    padding:5px 10px;
     
 }
 h1 {font-family: sans-serif;
@@ -64,8 +66,7 @@ footer {
 .social-networks > li {
     display: inline;
     align-items: center;
-    display: inline;
-    float: left;
+    float: left; 
     padding-left: 100px;
     text-align: center;
     
@@ -86,12 +87,16 @@ footer {
     width:100%;
     overflow: hidden;
     position: relative;
+    padding: 10px;
+    margin: auto;
 }
 #hero-image-one {
     clear: both;
     height: 600px;
     width:100%;
-    background: url(../images/meditation\ at\ home.jpg) no-repeat center center;
+    padding: 10px;
+    margin: auto;
+    background: url(../images/meditation_at_home.jpg) no-repeat center center;
 /* animates zoom effect on home page */
 animation-name: hero-zoom;
 animation-duration: 6s;
@@ -118,11 +123,10 @@ animation-fill-mode: forwards;
 /* stress section styling */
  #stress {
     color:rgb(54, 53, 53);
-    margin:auto;
     background-color: rgb(136, 192, 211,.5);
-    min-width: 100%;
-    padding:10px;
-    margin-top:5px;   
+    width:100%;
+    padding:5px;
+    margin:auto;   
  }
 
 #stress-text {
@@ -130,13 +134,13 @@ animation-fill-mode: forwards;
     color:rgb(54, 53, 53);  
 }
 #stress-pic {
-    background-image: url(../images/stressed\ man.jpg);
+    background-image: url(../images/stressed_man.jpg);
     height: 280px;
     width:300px;
     float:left;
     background-size: contain;
     background-repeat: no-repeat;
-    vertical-align:center;
+    vertical-align:middle;
     
 }
 /*picture panel on home page */
@@ -174,7 +178,7 @@ animation-fill-mode: forwards;
 #hero-image-two {
     height: 600px;
     width:100%;
-    background: url(../images/hike\ photo\ 1.jpg) no-repeat center center;
+    background: url(../images/hike_photo_1.jpg) no-repeat center center;
 /* animates zoom effect on home page */
 animation-name: hero-zoom;
 animation-duration: 6s;
@@ -204,21 +208,21 @@ position: absolute;
 /* nature paragraph */
     #nature {
     color:black;
-    margin:auto;
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
     padding:5px;
+    margin: auto; 
     }
     /*light paragraph */
     #light {
         color:black;
-        margin:auto;
         background-color: rgba(240, 238, 137, 0.829);
         width:100%;
         padding:5px;
+        margin: auto;
         }
         #light-pic {
-            background: url(../images/woman\ next\ to\ sunny\ window.jpg) no-repeat center center;
+            background: url(../images/woman_next_to_sunny_window.jpg) no-repeat center center;
             height:200px;
             width: 250px;
             background-size: contain;
@@ -243,7 +247,7 @@ position: absolute;
             padding:5px;
             }
     #sleep-pic {
-        background: url(../images/healthy\ sleep\ habits.webp) no-repeat center center;
+        background: url(../images/healthy_sleep_habits.webp) no-repeat center center;
             height:200px;
             width: 250px;
             background-size: contain;
@@ -266,22 +270,22 @@ position: absolute;
         background-color: rgba(232, 144, 50, 0.829);
         width:100%;
         padding: 5px;
+        margin:auto;
         vertical-align: text-top;
-        padding: 10px;
-
      }
+
      #plank-pic {
-        background: url(../images/man\ planking\ at\ home.jpg) no-repeat center center;
+        background: url(../images/man_planking_at_home.jpg) no-repeat center center;
             height: 200px;
             width:250px;
             background-size: contain;
             float:none;
             display:block;
-            margin: 2px;
-            
+            margin: 2px;     
      }
+
      #sweaty-woman-pic {
-        background: url(../images/woman\ sweaty\ from\ run.jpg) no-repeat center center;
+        background: url(../images/woman_sweaty_from_run.jpg) no-repeat center center;
             height: 200px;
             width:250px;
             background-size: contain;
@@ -291,7 +295,7 @@ position: absolute;
            
      }
      #woman-stretching-pic {
-        background: url(../images/woman\ stretching\ at\ home.jpg) no-repeat center center;
+        background: url(../images/woman_stretching_at_home.jpg) no-repeat center center;
             height: 200px;
             width:250px;
             background-size: contain;
@@ -326,7 +330,7 @@ position: absolute;
         clear: both;
      }
      #bloat-pic {
-        background: url(../images/belly\ bloat.jpg) no-repeat center center;
+        background: url(../images/belly_bloat.jpg) no-repeat center center;
             height: 250px;
             width:300px;
             background-size: contain;
@@ -335,7 +339,7 @@ position: absolute;
      }
      
      #drinking-water-pic {
-        background: url(../images/drinking\ water.jpg) no-repeat center center;
+        background: url(../images/drinking_water.jpg) no-repeat center center;
             height: 250px;
             width:300px;
             background-size: contain;
@@ -343,9 +347,26 @@ position: absolute;
             display: inline-block;
      }
 
+
+    
      iframe {
         margin:15px;
+        border: 0;
      } 
+     /* fixing padding and width issue */
+
+
+.border-box {
+    box-sizing: border-box;
+}
+
+section {
+width:100%;
+
+}
+
+
+     
 
 
 /* For medium screen sized from 950px wide and down*/
@@ -396,6 +417,7 @@ section {
 
 table {
     text-align: center;
+    width: 100%;
 }
 
 ul {
@@ -410,6 +432,7 @@ ul {
     width:100%;
     text-align: center;
 }
+
 
 
 /* for small screen sizes 800px and down 
