@@ -166,13 +166,42 @@ animation-fill-mode: forwards;
 #picture-panel-text table {
     text-align: center;
 }
+#smoothie-pic {
+    background:url(../images/woman_making_smoothie.jpg)no-repeat center center;
+    width: 25%;
+    height:250px;
+    background-size: cover;      
+}
+
+#hiking-woman-pic {
+    background: url(../images/three_women_hiking.jpg)no-repeat center center;
+    width: 25%;
+    height:250px;
+    background-size: cover;
+}
+
+#man-sleeping-pic {
+    background: url(../images/man_sleeping.webp)no-repeat center center;
+    width: 25%;
+    height:250px;
+    background-size: cover;
+
+}
+#group-exercise-pic {
+    background: url(../images/group_of_people_exercising.jpg)no-repeat center center;
+    width: 25%;
+    height:250px;
+    background-size: cover;
+
+}
 /* four image containers */
-.column-pic {
+
+/*.column-pic {
     max-width: 25%;
     height:250px;
     object-fit:contain;
     overflow: hidden;    
-}
+} */
       
 /* clear floats after image containers */
 .picture-panel {
