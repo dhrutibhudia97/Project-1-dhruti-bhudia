@@ -8,11 +8,23 @@ body {
     padding:5px 10px;
     
 }
+
+/* fixing padding and width issue */
+.border-box {
+    box-sizing: border-box;
+}
+
+section {
+    width:100%;
+}
+
+/*home page */
 h1 {font-family: sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
 color:darkslategray
 }
+
 /*logo */
 #logo {
     float:left;
@@ -21,6 +33,7 @@ color:darkslategray
     margin-top: 7px;
     align-items: center;
 }
+
 /* navigation links */
 #menu {
     font-size: 120%;
@@ -46,6 +59,7 @@ color:darkslategray
     border-bottom: 1px solid darkgrey;
     color:#404040;
 }
+
 /* footer */
 footer {
     height: 80px;
@@ -78,7 +92,7 @@ footer {
     color:#7578ae;
 }
 
-/*hero image and cover text */
+/*hero image */
 #cover-text, #cover-text h2 {
     color:#d3d3d3
 }
@@ -120,54 +134,61 @@ animation-fill-mode: forwards;
     position: absolute;
 }
 
-/* stress section styling */
- #stress {
+/* stress section */
+#stress {
     color:rgb(54, 53, 53);
     background-color: rgb(136, 192, 211,.5);
     width:100%;
-    padding:5px;
+    padding:10px 30px;
     margin:auto;   
- }
+}
 
 #stress-text {
-    margin: 10px 10px;
-    color:rgb(54, 53, 53);  
+    color:rgb(54, 53, 53); 
+    padding: 0px 30px; 
 }
+
 #stress-pic {
     background-image: url(../images/stressed_man.jpg);
-    height: 280px;
-    width:300px;
-    float:left;
+    height: 300px;
+    width:350px;
     background-size: contain;
     background-repeat: no-repeat;
-    vertical-align:middle;
-    
+    display: inline-block;
 }
-/*picture panel on home page */
 
-/* Four image containers */
-    .column-pic {
-        max-width: 25%;
-        height:250px;
-        object-fit:contain;
-        overflow: hidden;
-      }
+/*picture panel on home page */
+#picture-panel-text {
+    text-align:center;
+    width: 100%;
+}
+
+#picture-panel-text table {
+    text-align: center;
+}
+/* four image containers */
+.column-pic {
+    max-width: 25%;
+    height:250px;
+    object-fit:contain;
+    overflow: hidden;    
+}
       
-    /* Clear floats after image containers */
-    .picture-panel {
-        width:100%;
-        height: 250px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        
-      }
-      
-   
+/* clear floats after image containers */
+.picture-panel {
+    width:100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+/* mind page */
 /*hero image 2 on mind page and cover text */
 #cover-text, #cover-text h2 {
     color:#d3d3d3
 }
+
 #hero-outer-two {
     clear:both;
     height: 600px;
@@ -175,6 +196,7 @@ animation-fill-mode: forwards;
     overflow: hidden;
     position: relative;
 }
+
 #hero-image-two {
     height: 600px;
     width:100%;
@@ -189,184 +211,219 @@ animation-fill-mode: forwards;
     from{transform: scale(1);}
     to{transform: scale(1.2);}
 }
+
 /* cover text two box */
 #cover-text-two {
     font-size: 110%;
     font-family: sans-serif;
     text-align: center;
     color:black;
-    margin: 20px;
-    
-width: 300px;
-height: 160px;
-background-color: rgba(214, 150, 52, 0.6);
-top: 60px;
-left: 150px;
-position: absolute;
+    margin: 20px; 
+    width: 300px;
+    height: 160px;
+    background-color: rgba(214, 150, 52, 0.6);
+    top: 60px;
+    left: 150px;
+    position: absolute;
 }
 
-/* nature paragraph */
-    #nature {
+/* nature section */
+#nature {
     color:black;
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
-    padding:5px;
+    padding:10px 30px;
     margin: auto; 
-    }
-    /*light paragraph */
-    #light {
-        color:black;
-        background-color: rgba(240, 238, 137, 0.829);
-        width:100%;
-        padding:5px;
-        margin: auto;
-        }
-        #light-pic {
-            background: url(../images/woman_next_to_sunny_window.jpg) no-repeat center center;
-            height:200px;
-            width: 250px;
-            background-size: contain;
-            float:none;
-            display:inline-block;
-        }
-        #lamp-pic {
-            background: url(../images/woman\ with\ sad\ lamp.jpg) no-repeat;
-            height:200px;
-            width: 250px;
-            background-size: contain;
-            float:none;
-            display: inline-block;
-        } 
-    /*sleep paragraph */   
+}
+
+/*light section */
+#light {
     
-    #sleep {
-            color:black;
-            margin:auto;
-            background-color: rgba(159, 161, 241, 0.829);
-            width:100%;
-            padding:5px;
-            }
-    #sleep-pic {
-        background: url(../images/healthy_sleep_habits.webp) no-repeat center center;
-            height:200px;
-            width: 250px;
-            background-size: contain;
-            float:none;
-            display: inline-block;
-    }
-    /* yoga paragraph */
-     #yoga {
-        color:black;
-            margin:auto;
-            background-color: rgba(208, 159, 241, 0.829);
-            width:100%;
-            padding:5px;
-     }
-     /* body page */
-     /*exercise section */
-     #exercise {
-        clear: both;
-        color:black;
-        background-color: rgba(232, 144, 50, 0.829);
-        width:100%;
-        padding: 5px;
-        margin:auto;
-        vertical-align: text-top;
-     }
+    background-color: rgba(240, 238, 137, 0.829);
+    width:100%;
+    clear: both;
+    color:black;
+    margin:auto;
 
-     #plank-pic {
-        background: url(../images/man_planking_at_home.jpg) no-repeat center center;
-            height: 200px;
-            width:250px;
-            background-size: contain;
-            float:none;
-            display:block;
-            margin: 2px;     
-     }
+}
 
-     #sweaty-woman-pic {
-        background: url(../images/woman_sweaty_from_run.jpg) no-repeat center center;
-            height: 200px;
-            width:250px;
-            background-size: contain;
-            float:none;
-            display: block;
-            margin: 2px;
+#light-text {
+    padding:10px 30px;
+    text-align: left;
+    float: left;
+    text-align-last: auto;
+}
+
+#light-pic-panel {
+    text-align: center;
+}
+
+#light-pic {
+    background: url(../images/woman_next_to_sunny_window.jpg) no-repeat center center;
+    height: 190px;
+    width: 295px;
+    background-size:cover;
+    background-position: center;
+    float:none;
+    display:block;
+    margin: 2px;     
+}
+
+
+#lamp-pic {
+    background: url(../images/woman\ with\ sad\ lamp.jpg) no-repeat;
+    height: 190px;
+    width: 295px;
+    background-size:cover;
+    background-position: center;
+    float:none;
+    display:block;
+    margin: 2px;     
+}
+
+/*sleep section */   
+#sleep {
+    color:black;
+    margin:auto;
+    background-color: rgba(159, 161, 241, 0.829);
+    width:100%;
+    padding:10px 30px;
+}
+
+#sleep-pic {
+    background: url(../images/healthy_sleep_habits.webp) no-repeat center center;
+    height:210px;
+    width: 310px;
+    background-size: contain;
+    float:none;
+    display: inline-block;
+}
+
+#sleep-text {
+    padding:10px 30px;
+}
+
+/* yoga section */
+#yoga {
+    color:black;
+    margin:auto;
+    background-color: rgba(208, 159, 241, 0.829);
+    width:100%;
+    padding:10px 30px;
+}
+
+/* body page */
+/*exercise section */
+#exercise {
+    clear: both;
+    color:black;
+    background-color: rgba(232, 144, 50, 0.829);
+    width:100%;
+    padding: 10px;
+    margin:auto;
+    vertical-align: text-top;
+}
+
+#exercise-text {
+    padding:10px 30px;
+}
+
+#woman-stretching-pic {
+    background: url(../images/woman_stretching_at_home.jpg) no-repeat center center;
+    height: 190px;
+    width:295px;
+    background-size: cover;
+    float:none;
+    display: block;
+    margin: 2px;
+}
+
+#sweaty-woman-pic {
+    background: url(../images/woman_sweaty_from_run.jpg) no-repeat center center;
+    height: 190px;
+    width:295px;
+    background-size: cover;
+    float:none;
+    display: block;
+    margin: 2px;
+}
            
-     }
-     #woman-stretching-pic {
-        background: url(../images/woman_stretching_at_home.jpg) no-repeat center center;
-            height: 200px;
-            width:250px;
-            background-size: contain;
-            float:none;
-            display: block;
-            margin: 2px;
-            
-     }
-     #heavy-exercise {
-        color:black;
-        margin:auto;
-        background-color: rgba(230, 76, 49, 0.8);
-        width:100%;
-        padding:5px;
-        clear: both;
-     }
-     #light-exercise {
-        color:black;
-        margin:auto;
-        background-color: rgba(232, 223, 131, 0.829);
-        width:100%;
-        padding:5px;
-        clear: both;
-     }
-            
-     #bloat {
-        color:black;
-        margin:auto;
-        background-color: rgba(113, 203, 223, 0.829);
-        width:100%;
-        padding:5px;
-        clear: both;
-     }
-     #bloat-pic {
-        background: url(../images/belly_bloat.jpg) no-repeat center center;
-            height: 250px;
-            width:300px;
-            background-size: contain;
-            float:none;
-            display: inline-block;
-     }
+#plank-pic {
+    background: url(../images/man_planking_at_home.jpg) no-repeat center center;
+    height: 190px;
+    width: 295px;
+    background-size:cover;
+    background-position: center;
+    float:none;
+    display:block;
+    margin: 2px;     
+}
      
-     #drinking-water-pic {
-        background: url(../images/drinking_water.jpg) no-repeat center center;
-            height: 250px;
-            width:300px;
-            background-size: contain;
-            float:none;
-            display: inline-block;
-     }
 
 
-    
-     iframe {
-        margin:15px;
-        border: 0;
-     } 
-     /* fixing padding and width issue */
-
-
-.border-box {
-    box-sizing: border-box;
+/*heavy exercise section */
+#heavy-exercise {
+    color:black;
+    margin:auto;
+    background-color: rgba(230, 76, 49, 0.8);
+    width:100%;
+    padding:5px;
+    clear: both;
 }
 
-section {
-width:100%;
-
+#heavy-exercise-text {
+    padding:10px 30px;
+}
+/*light exercise section */
+#light-exercise {
+    color:black;
+    margin:auto;
+    background-color: rgba(232, 223, 131, 0.829);
+    width:100%;
+    padding:5px;
+    clear: both;
 }
 
+#light-exercise-text{
+    padding:10px 30px;
+}
 
+/* bloat section */            
+#bloat {
+    color:black;
+    margin:auto;
+    background-color: rgba(113, 203, 223, 0.829);
+    width:100%;
+    padding:5px;
+    clear: both;
+}
      
+#bloat-pic {
+    background: url(../images/belly_bloat.jpg) no-repeat center center;
+    height: 220px;
+    width:275px;
+    background-size:cover;
+    display: inline-block;
+}
+     
+#drinking-water-pic {
+    background: url(../images/drinking_water.jpg) no-repeat center center;
+    height: 220px;
+    width: 275px;
+    background-size:cover;
+    display: inline-block;
+}
+
+#bloat-text{
+    padding:10px 30px;
+}
+
+/* iframes styling */
+iframe {
+    margin:15px;
+    border: 0;
+} 
+
 
 
 /* For medium screen sized from 950px wide and down*/
@@ -388,11 +445,20 @@ width:100%;
 #stress table {
     display:inline-block;
     place-items:center;
-}    
-/*
-#picture-panel {
+} 
+
+#picture-panel-text {
+    text-align:center;
+    width: 100%;
+}
+#picture-panel-text table {
+    text-align: center;
+}
+
+/*#picture-panel {
     column-count: 2;
-}  */
+}  
+*/
 
 table tr,th,td {
     display:inline-block;
@@ -431,6 +497,7 @@ ul {
 #exercise-pic-panel {
     width:100%;
     text-align: center;
+}
 }
 
 
