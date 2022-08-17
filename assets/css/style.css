@@ -73,11 +73,15 @@ footer {
   background-color:#d3d3d3;
   color:rgb(153, 153, 210);
   text-align: center;
+  padding:5px auto;
+  font-size: 110%;
 }
 .social-networks{
     margin: 2px;
      
 }
+
+
 
 .social-networks > li {
     display: inline;
@@ -144,12 +148,12 @@ animation-fill-mode: forwards;
     background-color: rgb(136, 192, 211,.5);
     width:100%;
     padding:10px 30px;
-    margin:auto;   
+    margin-top: 15px;   
 }
 
 #stress-text {
     color:rgb(54, 53, 53); 
-    padding: 0px 30px; 
+    padding: 10px auto; 
 }
 
 #stress-pic {
@@ -163,13 +167,14 @@ animation-fill-mode: forwards;
 
 /*picture panel on home page */
 #picture-panel-text {
-    text-align:center;
+    display:inline;
     width: 100%;
+    padding:5px 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#picture-panel-text table {
-    text-align: center;
-}
+
 #smoothie-pic {
     background:url(../images/woman_making_smoothie.jpg)no-repeat center center;
     width: 25%;
@@ -457,30 +462,31 @@ iframe {
 
 /* Media Queries */
 /* For medium screens sized between 768px (tablet) wide and 480px (phone) */
+/* Header, Footer and home page */
 @media screen and (max-width:820px) and (min-width:480px) {
-    h1 {font-size: 90%;
+h1 {font-size: 90%;
     }
 
-    #logo {
+#logo {
         font-size: 200%;
     }
     
-    #menu {
+#menu {
         font-size: 100%;
     }
 
-    #menu, #logo {
+#menu, #logo {
         line-height: 60px;
     }
 
-    body {
+body {
         margin-bottom: 45px;
     }
 
-    div {display: block;
+div {display: block;
     }
 
-    #menu {
+#menu {
         clear:left;
         float:left;
         margin-left:30px;
@@ -488,73 +494,109 @@ iframe {
         line-height:25px;
     }
 
-    #cover-text {
+#cover-text {
         left:50px;
         width:240px;
         height:160px;
         font-size:80%;
     }
-    #cover-text-two {
+#cover-text-two {
         left: 50px;
         width:250px;
         height: 120px;
         font-size: 80%;
     }
 
-    #stress table {
-        display:inline-block;
-        place-items:center;
-    } 
-    
-    #stress-pic {
-        display: block;   
+#hero-outer-one{
+    height: 400px;
+    background-size: contain;
+}
+#hero-image-one {
+        height:400px;
+        background-size: contain;
     }
-/* .column-pic {
-    width:25%;
-    height:150px;
-    display:block;
-        
-    } */
 
+#stress {
+        padding:5px 10px;
+            
+        }
+    
+#stress table {
+            display:inline-block;
+            place-items:center;
+        } 
+        
+#stress-pic {
+            display: block;   
+            width:350px;
+            height: 250px;
+        }
+#stress-text{
+            padding:5px 5px;
+        }
+    
+    
 #smoothie-pic, #hiking-woman-pic, #man-sleeping-pic, #group-exercise-pic {
-    height:150px;
+        height:150px;
+    }
+    
+.picture-panel {
+        width: 100%;
+    }
+          
+        
+.footer {
+    padding:5px auto;
+}
+.social-networks i {
+            margin: 1%;
+            padding-top: 10px;
+        } 
+.social-networks > li {
+            display: inline;
+            align-items: center;
+            float: left; 
+            padding-left:2px;
+            text-align: center;
+            font-size: 80%;
+    
+        }
+
+/* Mind Page */
+#hero-outer-two{
+        height: 340px;
+        background-size: contain;
+        
+    }
+#hero-image-two {
+            height:340px;
+            background-size: contain;
+            
+        }
+        
+#cover-text-two {
+            left:30px;
+        }
+      
+#nature {
+    padding:5px 10px;
 }
 
 
-      
-    
+#lamp-pic {
+    float:left;
 
-.social-networks i {
-        margin: 1%;
-        padding-top: 10px;
-    } 
-.social-networks > li {
-        display: inline;
-        align-items: center;
-        float: left; 
-        padding-left:2px;
-        text-align: center;
-        font-size: 80%;
-        
- 
-    }
-      
+}
 
+#light-pic {
+    float:right;
+
+}
 
 table tr,th,td {
     display:inline-block;
     text-align:center;
     place-items: center;
-}
-
-
-section {
-    width:100%;
-    }
-
-
-#cover-text-two {
-    left:30px;
 }
 
 table {
@@ -567,13 +609,31 @@ ul {
     padding-left:0;
     text-align: left;
     margin:auto 7%;
-
 }
 
 #exercise-pic-panel {
     width:100%;
     text-align: center;
 }
+
+#woman-stretching-pic {
+    float:left;
+    width:200px;
+    height: 160px;
+}
+
+#sweaty-woman-pic {
+    float: left;
+    width:200px;
+    height: 160px;
+}
+
+#plank-pic {
+    float: left;
+    width:200px;
+    height: 160px;
+}
+
 }
 
 
