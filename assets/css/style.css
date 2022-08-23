@@ -1,12 +1,16 @@
 body {
     font-family:sans-serif;
     font-weight: 300;
-    font-size: 18px;
-    color:black;
+    font-size: 16px;
+    color:rgb(0, 0, 0);
     margin-bottom: 70px;
     max-width: 100%;
     overflow-x: hidden;
     padding:5px 10px;
+}
+
+section {
+    max-width:100%;
 }
 
 /* fixing padding and width issue */
@@ -14,8 +18,41 @@ body {
     box-sizing: border-box;
 }
 
-section {
-    width:100%;
+/* footer */
+footer {
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#d3d3d3;
+    color:rgb(153, 153, 210);
+    text-align: center; 
+    padding:5px auto;
+    font-size: 14px;
+}
+
+.social-networks{
+    margin: auto;  
+     
+} 
+
+
+
+.social-networks > li {
+    display: inline;
+    align-items: center;
+    float:left;
+    padding:5px 25px;
+    text-align: center; 
+    position: relative; 
+    
+}
+.social-networks i {
+    font-size: 130%;
+    margin: 1%;
+    padding-top: 20px;
+    color:#7578ae;
 }
 
 /*home page */
@@ -50,58 +87,26 @@ color:rgb(80, 158, 158)
 }
 #menu a {
     text-decoration:none;
-    color:darkgray;
+    color:rgb(169, 169, 169);
 }
 #menu a:hover {
-    text-decoration-line: underline;
+    background-color: rgb(80, 158, 158,.4);
+    color: #000000;
 }
 .active {
     border-bottom: 1px solid darkgrey;
     color:#404040;
 }
 
-/* footer */
-footer {
-    height: 60px;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#d3d3d3;
-  color:rgb(153, 153, 210);
-  text-align: center;
-  padding:5px auto;
-  font-size: 110%;
-}
-.social-networks{
-    margin: 2px;
-     
-}
-
-
-
-.social-networks > li {
-    display: inline;
-    align-items: center;
-    float:left;
-    padding:5px 25px;
-    text-align: center; 
-    position: relative;
-    
-}
-.social-networks i {
-    font-size: 130%;
-    margin: 1%;
-    padding-top: 20px;
-    color:#7578ae;
-}
-
-/*hero image */
 h2 {
     color:#000000;
+    font-size: 24px;
 }
+
+
+
+/*hero image */
+
 #hero-outer-one {
     height: 600px;
     width:100%;
@@ -172,36 +177,35 @@ animation-fill-mode: forwards;
 #picture-panel {
     text-align: center;
     align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+  
     
 }
 
 #smoothie-pic {
     background:url(../images/woman_making_smoothie.jpg)no-repeat center center;
-    width: 250px;
-    height:250px; 
+    width: 220px;
+    height:240px; 
     background-size: cover;      
 }
 
 #hiking-woman-pic {
     background: url(../images/three_women_hiking.jpg)no-repeat center center;
-    width: 250px;
-    height:250px;
+    width: 220px;
+    height:240px;
     background-size: cover;
 }
 
 #man-sleeping-pic {
     background: url(../images/man_sleeping.webp)no-repeat center center;
-    width: 250px;
-    height:250px;
+    width: 220px;
+    height:240px;
     background-size: cover;
 
 }
 #group-exercise-pic {
     background: url(../images/group_of_people_exercising.jpg)no-repeat center center;
-    width: 250px;
-    height:250px;
+    width: 220px;
+    height:240px;
     background-size: cover;
 
 }
@@ -239,7 +243,7 @@ animation-fill-mode: forwards;
     font-size: 110%;
     font-family: sans-serif;
     text-align: center;
-    color:black;
+    color:rgb(0, 0, 0);
     margin: 20px; 
     width: 300px;
     height: 160px;
@@ -251,7 +255,7 @@ animation-fill-mode: forwards;
 
 /* nature section */
 #nature {
-    color:black;
+    color:rgb(0, 0, 0);
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
     padding:10px 30px;
@@ -264,7 +268,7 @@ animation-fill-mode: forwards;
     background-color: rgba(240, 238, 137, 0.829);
     width:100%;
     clear: both;
-    color:black;
+    color:rgb(0, 0, 0);
     margin:auto;
 
 }
@@ -305,7 +309,7 @@ animation-fill-mode: forwards;
 
 /*sleep section */   
 #sleep {
-    color:black;
+    color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(159, 161, 241, 0.829);
     width:100%;
@@ -327,7 +331,7 @@ animation-fill-mode: forwards;
 
 /* yoga section */
 #yoga {
-    color:black;
+    color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(208, 159, 241, 0.829);
     width:100%;
@@ -346,7 +350,7 @@ iframe {
 /*exercise section */
 #exercise {
     clear: both;
-    color:black;
+    color:rgb(0, 0, 0);
     background-color: rgba(176, 146, 247, 0.829);
     width:100%;
     padding: 10px;
@@ -358,14 +362,20 @@ iframe {
     padding:10px 30px;
 }
 
+#exercise-pic-panel {
+    float:none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 #woman-stretching-pic {
     background: url(../images/woman_stretching_at_home.jpg) no-repeat center center;
     height: 190px;
     width:295px;
     background-size: cover;
-    float:none;
-    display: block;
-    margin: 2px;
+    
 }
 
 #sweaty-woman-pic {
@@ -373,9 +383,7 @@ iframe {
     height: 190px;
     width:295px;
     background-size: cover;
-    float:none;
-    display: block;
-    margin: 2px;
+    
 }
            
 #plank-pic {
@@ -383,17 +391,14 @@ iframe {
     height: 190px;
     width: 295px;
     background-size:cover;
-    background-position: center;
-    float:none;
-    display:block;
-    margin: 2px;     
+  
 }
      
 
 
 /*heavy exercise section */
 #heavy-exercise {
-    color:black;
+    color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(99, 157, 243, 0.8);
     width:100%;
@@ -406,7 +411,7 @@ iframe {
 }
 /*light exercise section */
 #light-exercise {
-    color:black;
+    color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
@@ -420,7 +425,7 @@ iframe {
 
 /* bloat section */            
 #bloat {
-    color:black;
+    color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(113, 203, 223, 0.829);
     width:100%;
@@ -537,8 +542,8 @@ div {display: block;
 
           
         
-.footer {
-    padding:5px auto;
+footer {
+    padding:5px 3px;
 }
 .social-networks i {
             margin: 1%;
@@ -612,8 +617,8 @@ ul {
 
 #exercise-pic-panel {
     width:100%;
-    text-align: center;
     padding: 5px auto;
+    margin: 10px 25px;
 }
 
 #woman-stretching-pic {
@@ -653,12 +658,7 @@ ul {
 
 /* for smaller screens between tablet and mobile */ 
 @media screen and (max-width:620px) and (min-width:340px) {
-/*
 
-.column-pic > #smoothie-pic, #hiking-woman-pic, #man-sleeping-pic, #group-exercise-pic {
-    display: block !important;   
-}
-    */
 }
 
 
@@ -750,24 +750,25 @@ iframe {
         font-size: 60%;
     }
 
- 
-.social-networks > li {
-    font-size: 70%;
-            }
+
 
 
 footer {
     height: 55px;
-    font-size: 80%;
+    font-size:12px;
+}
+footer > p {
+    font-size: 12px;
 }
 .social-networks > li {
-    font-size: 58%;
+    font-size: 12px;
+    padding: 10px 10px;
 }
 .social-networks i {
-    font-size:90%;
-    padding: 5px 0px;
+    padding: 4px 0px;
+    padding-top: 15px;
 }
 
 
-    }
+}
 
