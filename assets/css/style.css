@@ -333,6 +333,14 @@ animation-fill-mode: forwards;
     width:100%;
     padding:10px 30px;
 }
+#yoga-text {
+    min-width: 45%;
+}
+
+iframe {
+    width: 600px;
+    height:340px;
+}
 
 /* body page */
 /*exercise section */
@@ -451,7 +459,7 @@ animation-fill-mode: forwards;
 /* Media Queries */
 /* For medium screens sized between 768px (tablet) wide and 480px (phone) */
 /* Header, Footer and home page */
-@media screen and (max-width:820px) {
+@media screen and (max-width:768px) {
 h1 {font-size: 90%;
     }
 
@@ -583,9 +591,10 @@ table tr,th,td {
     place-items: center;
 }
 
-/*iframe {
-    float:left;
-} */
+iframe {
+    width: 450px;
+    height: 300px;
+} 
 
 table {
     text-align: center;
@@ -598,6 +607,8 @@ ul {
     text-align: left;
     margin:auto 7%;
 }
+
+/* body page */
 
 #exercise-pic-panel {
     width:100%;
@@ -689,9 +700,13 @@ body {
     
 }
 td #yoga-text {
-    width:390px;
+    min-width:80%;
     padding:5px 3px;
     font-size:16px;
+}
+iframe {
+    width: 350px;
+    height: 230px;
 }
 
 
