@@ -351,7 +351,7 @@ animation-fill-mode: forwards;
 #exercise {
     clear: both;
     color:black;
-    background-color: rgba(232, 144, 50, 0.829);
+    background-color: rgba(176, 146, 247, 0.829);
     width:100%;
     padding: 10px;
     margin:auto;
@@ -399,7 +399,7 @@ animation-fill-mode: forwards;
 #heavy-exercise {
     color:black;
     margin:auto;
-    background-color: rgba(230, 76, 49, 0.8);
+    background-color: rgba(99, 157, 243, 0.8);
     width:100%;
     padding:5px;
     clear: both;
@@ -412,7 +412,7 @@ animation-fill-mode: forwards;
 #light-exercise {
     color:black;
     margin:auto;
-    background-color: rgba(232, 223, 131, 0.829);
+    background-color: rgba(112, 190, 92, 0.5);
     width:100%;
     padding:5px;
     clear: both;
