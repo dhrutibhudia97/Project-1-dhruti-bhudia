@@ -55,7 +55,7 @@ footer {
     color:#7578ae;
 }
 
-/*home page */
+/*logo and navigation bar */
 h1 {font-family: sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
@@ -65,25 +65,25 @@ color:rgb(80, 158, 158)
 /*logo */
 #logo {
     float:left;
-    font-size:275%;
+    font-size:250%;
     margin-left: 20px;
     margin-top: 7px;
-    align-items: center;
+    /*align-items: center; */
 }
 
 /* navigation links */
 #menu {
-    font-size: 140%;
+    font-size: 120%;
     letter-spacing: 2px;
-    align-items: center;
+    /*align-items: center;*/
 }
-#menu, #logo {
+/* #menu, #logo {
     line-height: 60px;
-}
+} */
 #menu li {
     float: right;
     list-style-type:none;
-    margin-right: 60px;
+    margin-right: 25px;
 }
 #menu a {
     text-decoration:none;
@@ -98,12 +98,17 @@ color:rgb(80, 158, 158)
     color:#404040;
 }
 
+header {
+    line-height: 55px;
+
+}
+
 h2 {
     color:#000000;
     font-size: 24px;
 }
 
-
+/*home page */
 
 /*hero image */
 
@@ -499,13 +504,13 @@ div {display: block;
 #cover-text {
         left:50px;
         width:240px;
-        height:160px;
+        height:200px;
         font-size:80%;
     }
 #cover-text-two {
         left: 50px;
         width:250px;
-        height: 120px;
+        height: 140px;
         font-size: 80%;
     }
 
@@ -740,15 +745,23 @@ iframe {
 #cover-text { 
         left:2px;
         width:170px;
-        height:140px;
-        font-size:60%;
+        height:155px;
+        font-size: 20px;
+        
     }
+
+#cover-text > h2 {
+    font-size: 18px;
+}
 #cover-text-two {
         left: 2px;
         width:180px;
-        height: 100px;
-        font-size: 60%;
+        height: 130px;
+        font-size: 20px;
     }
+#cover-text-two > h2 {
+    font-size: 20px;
+}
 
 
 
