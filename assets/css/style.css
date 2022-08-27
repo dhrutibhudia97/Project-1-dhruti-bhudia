@@ -126,7 +126,7 @@ h2 {
     width:100%;
     padding: 10px;
     margin: auto;
-    background: url(../images/maryjoy-caballero-IKAO7n6aMX4-unsplash\ \(1\).jpg) no-repeat center center;
+    background: url(../images/yoga_hero_home.jpg) no-repeat center center;
     background-size:cover;
 /* animates zoom effect on home page */
 animation-name: hero-zoom;
@@ -166,6 +166,7 @@ animation-fill-mode: forwards;
     padding: 10px 10px; 
     float:left;
     width: 60%;
+    text-align:inherit;
 
     
 }
@@ -176,22 +177,27 @@ animation-fill-mode: forwards;
     width:340px;
     background-size: contain;
     background-repeat: no-repeat;
-    float:left;
+    float:right;
      
+}
+
+#whole-pic-panel  {
+    text-align: center;
 }
 
 #picture-panel {
     text-align: center;
     align-content: center;
-  
-    
+    padding:5px 5px;
 }
+
 
 #smoothie-pic {
     background:url(../images/green_smoothie.jpg)no-repeat center center;
     width: 220px;
     height:240px; 
     background-size: cover;      
+  
 }
 
 #hiking-woman-pic {
@@ -213,6 +219,7 @@ animation-fill-mode: forwards;
     width: 220px;
     height:240px;
     background-size: cover;
+    
 
 }
 
