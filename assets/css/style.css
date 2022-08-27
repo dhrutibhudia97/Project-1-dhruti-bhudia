@@ -290,7 +290,7 @@ animation-fill-mode: forwards;
 }
 
 #light-pic {
-    background: url(../images/woman_next_to_sunny_window.jpg) no-repeat center center;
+    background: url(../images/man_opening_blinds.jpg) no-repeat center center;
     height: 190px;
     width: 295px;
     background-size:cover;
@@ -302,7 +302,7 @@ animation-fill-mode: forwards;
 
 
 #lamp-pic {
-    background: url(../images/woman\ with\ sad\ lamp.jpg) no-repeat;
+    background: url(../images/desk_lamp.jpg) no-repeat;
     height: 190px;
     width: 295px;
     background-size:cover;
@@ -322,9 +322,9 @@ animation-fill-mode: forwards;
 }
 
 #sleep-pic {
-    background: url(../images/healthy_sleep_habits.webp) no-repeat center center;
-    height:210px;
-    width: 310px;
+    background: url(../images/sleeping_habits.jpg) no-repeat center center;
+    height:300px;
+    width: 410px;
     background-size: contain;
     float:none;
     display: inline-block;
