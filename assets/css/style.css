@@ -142,8 +142,8 @@ animation-fill-mode: forwards;
     font-size: 110%;
     font-family: sans-serif;
     text-align: center;
-    width: 400px;
-    height: 175px;
+    width: 380px;
+    height: 150px;
     background-color: rgb(156, 97, 156,0.7);
     bottom: 25px;
     left: 75px;
@@ -170,7 +170,7 @@ animation-fill-mode: forwards;
 }
 
 #stress-pic {
-    background-image: url(../images/stressed_man.jpg);
+    background-image: url(../images/a_stressed_man.jpg);
     height: 290px;
     width:340px;
     background-size: contain;
@@ -187,28 +187,28 @@ animation-fill-mode: forwards;
 }
 
 #smoothie-pic {
-    background:url(../images/woman_making_smoothie.jpg)no-repeat center center;
+    background:url(../images/green_smoothie.jpg)no-repeat center center;
     width: 220px;
     height:240px; 
     background-size: cover;      
 }
 
 #hiking-woman-pic {
-    background: url(../images/three_women_hiking.jpg)no-repeat center center;
+    background: url(../images/group_hike_image.jpg)no-repeat center center;
     width: 220px;
     height:240px;
     background-size: cover;
 }
 
 #man-sleeping-pic {
-    background: url(../images/man_sleeping.webp)no-repeat center center;
+    background: url(../images/woman_asleep.jpg)no-repeat center center;
     width: 220px;
     height:240px;
     background-size: cover;
 
 }
 #group-exercise-pic {
-    background: url(../images/group_of_people_exercising.jpg)no-repeat center center;
+    background: url(../images/group_stretch_image.jpg)no-repeat center center;
     width: 220px;
     height:240px;
     background-size: cover;

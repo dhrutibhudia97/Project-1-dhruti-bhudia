@@ -2,7 +2,7 @@
 
 This site is for people who want to make changes in their daily life to feel healthier physically and mentally. It provides them with information, advice and video tutorials to be able to start making small changes from the comfort of their home. This will benefit people who may want to make changes to improve their health or wellbeing but may not find the time or have the money to join a gym or buy expensive equipment, or feel too intimidated to do so. This website helps them learn more about the aspects involved in healthy well-being, good quality sleep and how to start implementing this into their daily routine.
 
-/* insert screen shots of the 3 different pages (maybe on different sized screens*/
+/* insert SCREEN SHOT of the 3 different pages (maybe on different sized screens*/
 
 ## Features
 
@@ -68,17 +68,19 @@ Shows users a video of a more gentle yoga routine that they can do at home if th
 - __Bloating Section__
 Shows users that bloating is common and not a reason to feel de-motivated to exercise. Gives tips to help with bloating.
 
-
-### Features left to implement
-/* if you have nothing then delete this section */
-
 ## Testing
 
-Go over all of the features in this project and ensure they work as intended to help users navigate this website and to get the information they want from it.
+All of the features in this project work as intended. Clicking the logo takes you back to the home page. Clicking on each option on the menu takes you to the intended pages. Clicking the social media icons on the footer also takes you the home pages of these different social media websites. 
 
-Go through how this website works on different browsers and screen sizes. Can breifly go through the few media queries sizes and some changes e.g. on screens smaller then "" the images/ and videos move to the top/bottom of the screen and image sizes shrink.
+The videos on the mind and body page work and users have control over playing the video. 
 
-Mention any errors/or bugs discovered during test, even if you havent addressed them yet. e.g. centering of footer content issue...
+The hero images with the zoom in effect on the home and mind page work as intended.
+
+All of the features discussed above also work on different screen sizes: desktop, tablets and smart phones. The images and text also change size to support the screen size.
+
+
+
+ * Mention any errors/or bugs discovered during test, even if you havent addressed them yet. e.g. centering of footer content issue...* 
 
 
 ### Validator Testing
@@ -91,22 +93,25 @@ Mention any errors/or bugs discovered during test, even if you havent addressed 
 
 
 ### Unfixed bugs
-Can't use difficulty understand or lack of time as a reason to leave infied bugs...
-current bugs... 
--on smaller screens sections with text and videos do not fit onto screen width and overhang from section background colour.
--footer content not centered.
-- don't know how to leave text/url alternative to images or videos if they dont load.
+- Footer content not centered.
+- Don't know how to leave text/url alternative to images or videos if they dont load.
+- media queries for the screen sizes between standard screen sizes (e.g. large ipads or small phones) text and pictures dont take up space efficiently, scroll bar may be in place.) Can add another media query for that...
 
 
 ### Deployment
 
-Describe the step by step process to deploy is project on github hosting platform.
-- attach live link to website here
+This site was deployed on github. The steps to deploy are the following:
+- In github, navigate to 'Settings' and the top.
+- Then navigate to 'Pages' on the left hand side menu.
+- From the Source section, select 'Deploy from a branch'.
+- For Branch, select 'Main' and '/(root)'.
+- The site has been successfully deployed.
+
+The live link can be found here - https://dhrutibhudia97.github.io/Project-1-dhruti-bhudia/
 
 
 ## Credits
-
-reference where Content and media split into these two sections
+This section with reference where I got my text content, media images and videos and coding help from.
 
 ### Content 
 - The text for the stress section on the home page was taken from "https://www.webmd.com/balance/stress-management/what-is-stress".
@@ -117,23 +122,21 @@ reference where Content and media split into these two sections
 - The text for the exercise section on the body page was taken from "https://www.webmd.com/depression/guide/exercise-depression#:~:text=When%20you%20exercise%2C%20your%20body,similar%20to%20that%20of%20morphine.".
 - The text for the bloat section on the body page was taken from "https://www.nhs.uk/conditions/bloating/#:~:text=The%20most%20common%20reason%20for,constipation".
 
+- Icons from footer and subheadings are taken from (font awesome) "https://fontawesome.com/".
 
-
-
-
-The text for the 
-- icons from footer (font awesome)
-- all help from love running module and video tutorials and help pages...
 
 ### Media
 - Images/videos
 
 
+### Coding Assistance
+
+- The Code Institutes "love running module" has been used as a source for design ideas, such as the logo, navigation bar, hero images with zoom in effect and footer with icons. -  https://dhrutibhudia97.github.io/love-running-walkthrough-project/
+
+- 
 
 
 
-PROBLEMS:
-footer overlaps content )big just be on big screens).
 
-hompage bottom picture panel the text overlaps the images.
-Also the images do not span whole screen width - need to add 1-2 more images.
+
+
