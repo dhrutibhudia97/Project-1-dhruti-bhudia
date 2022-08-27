@@ -126,7 +126,22 @@ This section with reference where I got my text content, media images and videos
 
 
 ### Media
-- Images/videos
+- Images taken from open soruce website - https://unsplash.com/
+
+a_stressed_man - Photo by Luis Villasmil on Unsplash
+green_smoothie - Photo by Giorgi Iremadze on Unsplash
+group_hike_image - Photo by Aurelien Thomas on Unsplash
+woman_asleep- Photo by Vladislav Muslakov on Unsplash
+group_stretch_image - Photo by Dylan Gillis on Unsplash
+desk_lamp - Photo by Dagny Reese on Unsplash
+man_opening_blinds - Photo by Ethan Sykes on Unsplash
+sleeping_habits - Photo by Lucas Andrade on Unsplash
+woman_doing_situp - Photo by Jonathan Borba on Unsplash
+woman_doing_plank- Photo by Olivia Bauso on Unsplash
+man_doing_laces - Photo by Alexander Redl on Unsplash
+
+- woman doing yoga hero image - https://www.gettyimages.co.uk/detail/photo/meditation-royalty-free-image/1214830730
+- people hiking hero image - 
 
 
 ### Coding Assistance

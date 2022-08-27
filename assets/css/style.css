@@ -126,7 +126,8 @@ h2 {
     width:100%;
     padding: 10px;
     margin: auto;
-    background: url(../images/meditation_at_home.jpg) no-repeat center center;
+    background: url(../images/maryjoy-caballero-IKAO7n6aMX4-unsplash\ \(1\).jpg) no-repeat center center;
+    background-size:cover;
 /* animates zoom effect on home page */
 animation-name: hero-zoom;
 animation-duration: 6s;
@@ -134,8 +135,8 @@ animation-fill-mode: forwards;
 }
 /* creates the level of zoom for hero image 1 */
 @keyframes hero-zoom {
-    from{transform: scale(1);}
-    to{transform: scale(1.2);}
+    from{transform: scale(0.8);}
+    to{transform: scale(1.0);}
 }
 /* cover text box */
 #cover-text {
@@ -144,7 +145,7 @@ animation-fill-mode: forwards;
     text-align: center;
     width: 380px;
     height: 150px;
-    background-color: rgb(156, 97, 156,0.7);
+    background-color: rgba(61, 197, 118, 0.7);
     bottom: 25px;
     left: 75px;
     position: absolute;
@@ -231,7 +232,7 @@ animation-fill-mode: forwards;
 #hero-image-two {
     height: 600px;
     width:100%;
-    background: url(../images/hike_photo_1.jpg) no-repeat center center;
+    background: url(../images/nature_hero_image.jpg) no-repeat center center;
 /* animates zoom effect on home page */
 animation-name: hero-zoom;
 animation-duration: 6s;
@@ -239,8 +240,8 @@ animation-fill-mode: forwards;
 }
 /* creates the level of zoom for hero image 2 */
 @keyframes hero-zoom {
-    from{transform: scale(1);}
-    to{transform: scale(1.2);}
+    from{transform: scale(0.8);}
+    to{transform: scale(1.0);}
 }
 
 /* cover text two box */
@@ -252,7 +253,7 @@ animation-fill-mode: forwards;
     margin: 20px; 
     width: 300px;
     height: 160px;
-    background-color: rgba(214, 150, 52, 0.6);
+    background-color: rgba(214, 150, 52, 0.8);
     top: 60px;
     left: 150px;
     position: absolute;
