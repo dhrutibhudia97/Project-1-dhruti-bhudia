@@ -155,6 +155,12 @@ man_doing_laces - Photo by Alexander Redl on Unsplash.
 - Assistance with containers and margins from this website - "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
 - Assistance with html and css style guide rules from this website - "https://google.github.io/styleguide/htmlcssguide.html"
 -Assistance with formatting the readme file taken from the love-running tutorial by code institute - "https://github.com/Code-Institute-Solutions/readme-template".
+- Assistance with making images the same height and width using CSS - "https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css".
+- Assistance with aligning images horizontally - "https://www.w3schools.com/howto/howto_css_images_side_by_side.asp".
+- Assistance with styling bullet point to center with text - "https://stackoverflow.com/questions/28977320/how-do-i-get-the-bullet-points-of-a-ul-to-center-with-the-text".
+
+
+
 
 
 
