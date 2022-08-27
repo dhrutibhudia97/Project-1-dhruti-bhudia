@@ -86,10 +86,10 @@ All of the features discussed above also work on different screen sizes: desktop
 ### Validator Testing
 
 - HTML
-  - Show no errors when put through W3C validator (insert link to this validator)
+  - No errors found when using CSS validator - "https://validator.w3.org/#validate_by_input".
 
 -CSS
-  - Show same thing for CSS validator (insert link for validator used)
+  - No errors found when using CSS validator - "https://jigsaw.w3.org/css-validator/validator".
 
 
 ### Unfixed bugs
@@ -149,13 +149,14 @@ man_doing_laces - Photo by Alexander Redl on Unsplash.
 
 
 ### Coding Assistance
-
+-Project meetings with my mentor Sandeep Aggarwal who helped me fix my formatting issues with media queries for different sized screens and aligning pictures horizontally.
 - The Code Institutes "love running module" has been used as a source for design ideas, such as the logo, navigation bar, hero images with zoom in effect and footer with icons. - "https://dhrutibhudia97.github.io/love-running-walkthrough-project/"
 - Assistance with media queries using this video tutorial - "https://www.youtube.com/watch?v=j1AhSWFcZpg&ab_channel=AdrianTwarog"
 - Assistance with containers and margins from this website - "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
 - Assistance with html and css style guide rules from this website - "https://google.github.io/styleguide/htmlcssguide.html"
-- Project meetings with my mentor Sandeep Aggarwal who helped me fix my formatting issues with media queries for different sized screens and aligning pictures horizontally.
 -Assistance with formatting the readme file taken from the love-running tutorial by code institute - "https://github.com/Code-Institute-Solutions/readme-template".
+
+
 
 
 

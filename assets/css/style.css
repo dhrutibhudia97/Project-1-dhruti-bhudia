@@ -1,8 +1,8 @@
 body {
-    font-family:sans-serif;
-    font-weight: 300;
-    font-size: 16px;
     color:rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: 300;
     margin-bottom: 70px;
     max-width: 100%;
     overflow-x: hidden;
@@ -14,22 +14,22 @@ section {
 }
 
 /* fixing padding and width issue */
-.border-box {
+/*.border-box {
     box-sizing: border-box;
-}
+} */
 
 /* footer */
 footer {
-    height: 60px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color:#d3d3d3;
+    bottom: 0;
     color:rgb(153, 153, 210);
-    text-align: center; 
-    padding:5px auto;
     font-size: 14px;
+    height: 60px;
+    left: 0;
+    padding:5px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
 }
 
 .social-networks{
@@ -40,14 +40,14 @@ footer {
 
 
 .social-networks > li {
-    display: inline;
     align-items: center;
-    float:left;
+    display: inline;
+    float:left; 
     padding:5px 25px;
-    text-align: center; 
     position: relative; 
-    
+    text-align: center; 
 }
+
 .social-networks i {
     font-size: 130%;
     margin: 1%;
@@ -59,7 +59,7 @@ footer {
 h1 {font-family: sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
-color:rgb(80, 158, 158)
+color:rgb(80, 158, 158);
 }
 
 /*logo */
@@ -117,14 +117,12 @@ h2 {
     width:100%;
     overflow: hidden;
     position: relative;
-    padding: 10px;
     margin: auto;
 }
 #hero-image-one {
     clear: both;
     height: 600px;
     width:100%;
-    padding: 10px;
     margin: auto;
     background: url(../images/yoga_hero_home.jpg) no-repeat center center;
     background-size:cover;
@@ -140,16 +138,17 @@ animation-fill-mode: forwards;
 }
 /* cover text box */
 #cover-text {
+    color:#000000;
     font-size: 110%;
     font-family: sans-serif;
     text-align: center;
     width: 380px;
     height: 150px;
     background-color: rgba(61, 197, 118, 0.7);
-    bottom: 25px;
+    top: 40px;
     left: 75px;
     position: absolute;
-    color:#000000;
+    
 }
 
 /* stress section */
@@ -157,13 +156,13 @@ animation-fill-mode: forwards;
     color:rgb(54, 53, 53);
     background-color: rgb(136, 192, 211,.5);
     width:100%;
-    padding:10px 10px;
+    padding:10px 0; 
     margin-top: 15px;   
 }
 
 #stress-text {
     color:rgb(54, 53, 53); 
-    padding: 10px 10px; 
+    padding: 10px;
     float:left;
     width: 60%;
     text-align:inherit;
@@ -185,10 +184,10 @@ animation-fill-mode: forwards;
     text-align: center;
 }
 
-#picture-panel {
+.picture-panel {
     text-align: center;
     align-content: center;
-    padding:5px 5px;
+  
 }
 
 
@@ -277,12 +276,12 @@ animation-fill-mode: forwards;
 
 /*light section */
 #light {
-    
+    color:rgb(0, 0, 0);
     background-color: rgba(240, 238, 137, 0.829);
     width:100%;
-    clear: both;
-    color:rgb(0, 0, 0);
+    /*clear: both;*/
     margin:auto;
+    padding: 10px 30px;
 
 }
 
@@ -324,7 +323,7 @@ animation-fill-mode: forwards;
 #sleep {
     color:rgb(0, 0, 0);
     margin:auto;
-    background-color: rgba(159, 161, 241, 0.829);
+    background-color: rgba(159, 161, 241, .8);
     width:100%;
     padding:10px 30px;
 }
@@ -346,7 +345,7 @@ animation-fill-mode: forwards;
 #yoga {
     color:rgb(0, 0, 0);
     margin:auto;
-    background-color: rgba(208, 159, 241, 0.829);
+    background-color: rgba(208, 159, 241, 0.8);
     width:100%;
     padding:10px 30px;
 }
@@ -364,9 +363,9 @@ iframe {
 #exercise {
     clear: both;
     color:rgb(0, 0, 0);
-    background-color: rgba(176, 146, 247, 0.829);
+    background-color: rgba(176, 146, 247, 0.8);
     width:100%;
-    padding: 10px;
+    padding: 10px 30px;
     margin:auto;
     vertical-align: text-top;
 }
@@ -415,7 +414,7 @@ iframe {
     margin:auto;
     background-color: rgba(99, 157, 243, 0.8);
     width:100%;
-    padding:5px;
+    padding:10px 30px;
     clear: both;
 }
 
@@ -428,13 +427,13 @@ iframe {
     margin:auto;
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
-    padding:5px;
+    padding:10px 30px;
     clear: both;
 }
 
-#light-exercise-text{
+/*#light-exercise-text{
     padding:10px 30px;
-}
+} */
 
 /* bloat section */            
 #bloat {
@@ -442,7 +441,7 @@ iframe {
     margin:auto;
     background-color: rgba(113, 203, 223, 0.829);
     width:100%;
-    padding:5px;
+    padding:10px 30px;
     clear: both;
 }
      
@@ -478,8 +477,7 @@ iframe {
 /* For medium screens sized between 768px (tablet) wide and 480px (phone) */
 /* Header, Footer and home page */
 @media screen and (max-width:768px) {
-h1 {font-size: 90%;
-    }
+
 
 #logo {
         font-size: 200%;
@@ -510,13 +508,13 @@ div {display: block;
     }
 
 #cover-text {
-        left:50px;
-        width:240px;
-        height:200px;
+        left:70px;
+        width:200px;
+        height:250px;
         font-size:80%;
     }
 #cover-text-two {
-        left: 50px;
+        left: 130px;
         width:250px;
         height: 140px;
         font-size: 80%;
@@ -588,9 +586,9 @@ footer {
             left:30px;
         }
       
-#nature {
+/*#nature {
     padding:5px 10px;
-}
+} */
 
 
 #lamp-pic {
@@ -606,7 +604,7 @@ footer {
 table tr,th,td {
     display:inline-block;
     text-align:center;
-    place-items: center;
+    
 }
 
 iframe {
@@ -630,7 +628,7 @@ ul {
 
 #exercise-pic-panel {
     width:100%;
-    padding: 5px auto;
+    padding: 3px;
     margin: 10px 25px;
 }
 
@@ -690,7 +688,7 @@ body {
         clear:left;
         float:left;
         margin-left:5px;
-        margin: bottom 5px;
+        margin-bottom: 5px;
         line-height:20px;
     }
     #logo {
@@ -708,17 +706,16 @@ body {
     
     
 #stress, #light-text, #sleep-text, #yoga, #exercise-text, #heavy-exercise-text, #light-exercise-text, #bloat-text {
-    padding: 5px 7px;
-    font-size: 16px;
-    
+    font-size: 16px;  
 }
-td #yoga-text {
+
+/*td #yoga-text {
     min-width:80%;
     padding:5px 3px;
     font-size:16px;
-}
+} */
 iframe {
-    width: 350px;
+    width: 340px;
     height: 230px;
 }
 
@@ -752,20 +749,20 @@ iframe {
 
 #cover-text { 
         left:2px;
-        width:170px;
-        height:155px;
+        width:125px;
+        height:160px;
         font-size: 20px;
         
     }
 
 #cover-text > h2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 #cover-text-two {
         left: 2px;
-        width:180px;
-        height: 130px;
-        font-size: 20px;
+        width:140px;
+        height: 160px;
+        font-size: 16px;
     }
 #cover-text-two > h2 {
     font-size: 20px;
@@ -786,7 +783,7 @@ footer > p {
     padding: 10px 10px;
 }
 .social-networks i {
-    padding: 4px 0px;
+    padding: 4px 0;
     padding-top: 15px;
 }
 
