@@ -5,18 +5,13 @@ body {
     font-weight: 300;
     margin-bottom: 70px;
     overflow-x: hidden;
-    /*padding:5px 10px; */
-    max-width: 99%;
-    
+    max-width: 99%;   
 }
-
-
 section {
     max-width:100%;
-    /*padding:15px;*/
 }
-/* Footer */
 
+/* Footer */
 footer {
     background-color:#d3d3d3;
     bottom: 0;
@@ -29,7 +24,6 @@ footer {
     text-align: center;
     width: 100%;
 }
-    
 .social-networks{
     margin: auto;
 }
@@ -47,6 +41,7 @@ footer {
     padding-top: 20px;
     color:#7578ae;
 }
+
 /*Logo and Navigation Bar */
 h1 {
    font-family: sans-serif;
@@ -54,6 +49,7 @@ h1 {
     letter-spacing: 4px;
     color:rgb(80, 158, 158);
 }
+
 /*logo */
 #logo {
     float:left;
@@ -61,6 +57,7 @@ h1 {
     margin-left: 20px;
     margin-top: 7px;
 }
+
 /* navigation links */
 #menu {
     font-size: 120%;
@@ -94,6 +91,7 @@ h2, h3, p, ul {
     padding: 10px 20px;
 }
 
+
 /*Home Page */
 /*Hero image */
 #hero-outer-one {
@@ -124,6 +122,7 @@ h2, h3, p, ul {
        transform: scale(1.0);
    }
 }
+
 /* Cover text box */
 #cover-text {
     color:#000000;
@@ -137,17 +136,17 @@ h2, h3, p, ul {
     left: 75px;
     position: absolute;
 }
+
 /* Stress section */
 #stress {
     color:rgb(54, 53, 53);
     background-color: rgb(136, 192, 211,.5);
     width:100%;
-    /*padding:10px 0;*/
     margin-top: 15px;
+    display: inline-block;
 }
 #stress-text {
     color:rgb(54, 53, 53);
-    /*padding:10px; */
     float:left;
     width: 60%;
     text-align:inherit;
@@ -160,6 +159,7 @@ h2, h3, p, ul {
     background-repeat: no-repeat;
     float:right;
 }
+
 /* Picture panel */
 #whole-pic-panel {
     text-align: center;
@@ -167,6 +167,7 @@ h2, h3, p, ul {
 .picture-panel {
     text-align: center;
     align-content: center;
+    display: inline-block;
 }
 #smoothie-pic {
     background:url(../images/green_smoothie.jpg)no-repeat center center;
@@ -192,7 +193,10 @@ h2, h3, p, ul {
     height:240px;
     background-size: cover;
 }
-/* mind page */
+
+
+/* Mind Page */
+/*Hero Image */
 #hero-outer-two {
     clear:both;
     height: 600px;
@@ -232,26 +236,21 @@ h2, h3, p, ul {
     left: 150px;
     position: absolute;
 }
+
 /* nature section */
 #nature {
     color:rgb(0, 0, 0);
     background-color: rgba(112, 190, 92, 0.5);
-    width:100%;
-   /* padding:10px 30px; */
-    
+    width:100%;   
 }
+
 /*light section */
 #light {
     color:rgb(0, 0, 0);
     background-color: rgba(240, 238, 137, 0.829);
     width:100%;
-   /*clear: both;
-   */
-    /*margin:auto;
-    padding:10px 30px; */
 }
 #light-text {
-    /*padding:10px 30px; */
     text-align: left;
     float: left;
     text-align-last: auto;
@@ -279,13 +278,13 @@ h2, h3, p, ul {
     display:block;
     margin: 2px;
 }
+
 /*sleep section */
 #sleep {
     color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(159, 161, 241, .8);
     width:100%;
-    /*padding:10px 30px;*/
 }
 #sleep-pic {
     background: url(../images/sleeping_habits.jpg) no-repeat center center;
@@ -295,16 +294,13 @@ h2, h3, p, ul {
     float:none;
     display: inline-block;
 }
-#sleep-text {
-    /*padding:10px 30px;*/
-}
+
 /* yoga section */
 #yoga {
     color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(208, 159, 241, 0.8);
     width:100%;
-    /*padding:10px 30px;*/
 }
 #yoga-text {
     min-width: 45%;
@@ -313,29 +309,25 @@ iframe {
     width: 600px;
     height:340px;
 }
-/* body page */
-/*exercise section */
+
+
+/* Body Page */
+/*Exercise section */
 #exercise {
     clear: both;
     color:rgb(0, 0, 0);
     background-color: rgba(176, 146, 247, 0.8);
     width:100%;
-    /*padding:10px 30px;*/
     margin:auto;
     vertical-align: text-top;
 }
-#exercise-text {
-    /*padding:10px 30px;*/
-}
+
 #exercise-pic-panel {
     float:none;
     display: block;
     margin:0;
     padding:0;
-    /*margin-left: auto;
-    margin-right: auto;*/
 }
-
 #woman-stretching-pic {
     background: url(../images/woman_doing_situp.jpg) no-repeat center center;
     height: 190px;
@@ -354,34 +346,31 @@ iframe {
     width: 295px;
     background-size:cover;
 }
+
 /*heavy exercise section */
 #heavy-exercise {
     color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(99, 157, 243, 0.8);
     width:100%;
-    /*padding:10px 30px;*/
     clear: both;
 }
-#heavy-exercise-text {
-    /*padding:10px 30px;*/
-}
+
 /*light exercise section */
 #light-exercise {
     color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
-    /*padding:10px 30px;*/
     clear: both;
 }
+
 /* bloat section */
 #bloat {
     color:rgb(0, 0, 0);
     margin:auto;
     background-color: rgba(113, 203, 223, 0.829);
     width:100%;
-    /*padding:10px 30px;*/
     clear: both;
 }
 #bloat-pic {
@@ -398,18 +387,20 @@ iframe {
     background-size:cover;
     display: inline-block;
 }
-#bloat-text{
-    /*padding:10px 30px;*/
-}
+
+
 @media screen and (max-width:1024px) {
    /* iframes styling */
     iframe {
         float:left;
    }
 }
+
+
 /* Media Queries */
 /* For medium screens sized between 768px (tablet) wide and 480px (phone) */
-/* Header, Footer and home page */
+
+/* Header, Footer and Home page */
 @media screen and (max-width:768px) {
     #logo {
         font-size: 200%;
@@ -485,6 +476,7 @@ iframe {
         text-align: center;
         font-size: 16px;
    }
+
    /* Mind Page */
     #hero-outer-two{
         height: 340px;
@@ -520,11 +512,10 @@ iframe {
         text-align: left;
         margin:auto 7%;
    }
-   /* body page */
+
+   /* Body Page */
     #exercise-pic-panel {
         width:100%;
-        /*padding: 3px;
-        margin: 10px 25px;*/
    }
    td > #exercise-pic-panel {
     margin: 0;
@@ -556,6 +547,8 @@ iframe {
         background-size: cover;
    }
 }
+
+
 /* max width 480px - from smaller phone screen */
 @media screen and (max-width:480px) {
     body {
@@ -591,23 +584,12 @@ iframe {
         width:250px;
         height:200px;
    }
-    /*#hero-outer-one{
-        height: 250px;
-        background-size: contain;
-        padding: 2px;
-        
-   }*/
     #hero-image-one {
         height:240px;
         background-size: contain;
         padding:0px;
         animation: none;
    }
-   /* #hero-outer-two{
-        height: 250px;
-        background-size: contain;
-        padding: 2px;
-   }*/
     #hero-image-two {
         height:240px;
         background-size: contain;
@@ -654,11 +636,9 @@ iframe {
         padding: 4px 0;
         padding-top: 15px;
    }
-
    #woman-stretching-pic {
     width:210px;
     height: 160px;
-    
     }
 #sweaty-woman-pic {
     width:210px;
@@ -670,6 +650,7 @@ iframe {
     }
 
 }
+
 
 @media screen and (max-width:385px) {
     footer {

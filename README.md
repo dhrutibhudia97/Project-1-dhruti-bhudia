@@ -87,7 +87,7 @@ The videos on the mind and body page work and users have control over playing th
 
 The hero images with the zoom-in effect on the home and mind page work as intended.
 
-All of the features discussed above also work on different screen sizes: desktops, tablets, and smart phones. The images and text also change size to support the screen size. 
+All of the features discussed above also work on different screen sizes: desktops (1024px), tablets (768px), and smart phones (480px and lower). The images and text also change size to support the screen size. 
 
 ### Validator Testing
 - HTML
@@ -133,38 +133,36 @@ This section with reference to where I got my text content, media images, videos
 
 
 ### Media
-- Images were taken from the open source website - https://unsplash.com/
-Yoga_hero_image- Photo by Maryjoy Caballero on Unsplash.
-a_stressed_man - Photo by Luis Villasmil on Unsplash.
-green_smoothie - Photo by Giorgi Iremadze on Unsplash.
-group_hike_image - Photo by Aurelien Thomas on Unsplash.
-woman_asleep- Photo by Vladislav Muslakov on Unsplash.
-group_stretch_image - Photo by Dylan Gillis on Unsplash.
-nature_hero_image - Photo by IB Wira Dyatmika on Unsplash.
-desk_lamp - Photo by Dagny Reese on Unsplash.
-man_opening_blinds - Photo by Ethan Sykes on Unsplash.
-sleeping_habits - Photo by Lucas Andrade on Unsplash.
-woman_doing_situp - Photo by Jonathan Borba on Unsplash.
-woman_doing_plank- Photo by Olivia Bauso on Unsplash.
-man_doing_laces - Photo by Alexander Redl on Unsplash.
+- All images were taken from the open source website - https://unsplash.com/
 
- - Videos were taken from youtube
- Yoga video on mind page - "https://www.youtube.com/watch?v=uf3SG1Hv-tA&ab_channel=beyoutifulliving"
- Intense workout video on body page - "https://www.youtube.com/watch?t=9&v=IT94xC35u6k&feature=emb_imp_woyt&ab_channel=MadFit"
- Less intense workout video on body page - "https://www.youtube.com/watch?v=TzseqhkMweI&feature=emb_imp_woyt&ab_channel=growingannanas"
+- Videos were taken from youtube:
+  - "https://www.youtube.com/watch?v=uf3SG1Hv-tA&ab_channel=beyoutifulliving"
+  - "https://www.youtube.com/watch?t=9&v=IT94xC35u6k&feature=emb_imp_woyt&ab_channel=MadFit"
+  - "https://www.youtube.com/watch?v=TzseqhkMweI&feature=emb_imp_woyt&ab_channel=growingannanas"
 
 
 
-### Coding Assistance
+### Acknowledgements
 -Project meetings with my mentor Sandeep Aggarwal who helped me fix my formatting issues with media queries for different-sized screens and aligning pictures horizontally.
 - The Code Institutes "love running module" has been used as a source for design ideas, such as the logo, navigation bar, hero images with zoom-in effect, and footer with icons. - "https://dhrutibhudia97.github.io/love-running-walkthrough-project/"
-- Assistance with media queries using this video tutorial - "https://www.youtube.com/watch?v=j1AhSWFcZpg&ab_channel=AdrianTwarog"
 - Assistance with containers and margins from this website - "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
 - Assistance with HTML and CSS style guide rules from this website - "https://google.github.io/styleguide/htmlcssguide.html"
 -Assistance with formatting the readme file taken from the love-running tutorial by code institute - "https://github.com/Code-Institute-Solutions/readme-template".
 - Assistance with making images the same height and width using CSS - "https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css".
 - Assistance with aligning images horizontally - "https://www.w3schools.com/howto/howto_css_images_side_by_side.asp".
 - Assistance with styling bullet points so they centered with the text - "https://stackoverflow.com/questions/28977320/how-do-i-get-the-bullet-points-of-a-ul-to-center-with-the-text".
+
+### Technologies
+These are all of the websites used to help make this website:
+- HTML (link)
+- CSS
+- HTML Validator
+- CSS Validator
+- Youtube
+- Unsplash
+- Font Awesome
+...
+
 
 
 
