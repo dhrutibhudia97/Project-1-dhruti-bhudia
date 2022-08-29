@@ -11,6 +11,8 @@ body {
 section {
     max-width:100%;
 }
+/* Footer */
+
 footer {
     background-color:#d3d3d3;
     bottom: 0;
@@ -18,11 +20,12 @@ footer {
     font-size: 14px;
     height: 60px;
     left: 0;
-    padding:5px;
+    padding: 5px;
     position: fixed;
     text-align: center;
     width: 100%;
 }
+    
 .social-networks{
     margin: auto;
 }
@@ -40,7 +43,7 @@ footer {
     padding-top: 20px;
     color:#7578ae;
 }
-/*logo and navigation bar */
+/*Logo and Navigation Bar */
 h1 {
    font-family: sans-serif;
     text-transform: uppercase;
@@ -83,8 +86,8 @@ h2 {
     color:#000000;
     font-size: 24px;
 }
-/*home page */
-/*hero image */
+/*Home Page */
+/*Hero image */
 #hero-outer-one {
     height: 600px;
     width:100%;
@@ -99,12 +102,12 @@ h2 {
     margin: auto;
     background: url(../images/yoga_hero_home.jpg) no-repeat center center;
     background-size:cover;
-   /* animates zoom effect on home page */
+   /* Animates zoom effect on home page */
     animation-name: hero-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
 }
-/* creates the level of zoom for hero image 1 */
+/* Creates the level of zoom for hero image 1 */
 @keyframes hero-zoom {
     from{
        transform: scale(0.8);
@@ -113,7 +116,7 @@ h2 {
        transform: scale(1.0);
    }
 }
-/* cover text box */
+/* Cover text box */
 #cover-text {
     color:#000000;
     font-size: 110%;
@@ -126,7 +129,7 @@ h2 {
     left: 75px;
     position: absolute;
 }
-/* stress section */
+/* Stress section */
 #stress {
     color:rgb(54, 53, 53);
     background-color: rgb(136, 192, 211,.5);
@@ -149,6 +152,7 @@ h2 {
     background-repeat: no-repeat;
     float:right;
 }
+/* Picture panel */
 #whole-pic-panel {
     text-align: center;
 }
@@ -613,13 +617,14 @@ iframe {
     footer {
         height: 55px;
         font-size:12px;
+        padding:0%;
    }
     footer > p {
         font-size: 12px;
    }
     .social-networks > li {
         font-size: 12px;
-        padding: 10px 10px;
+        padding: 5px 5px;
    }
     .social-networks i {
         padding: 4px 0;
