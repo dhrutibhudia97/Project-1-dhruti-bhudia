@@ -588,11 +588,13 @@ iframe {
         height: 250px;
         background-size: contain;
         padding: 2px;
+        
    }
     #hero-image-one {
         height:250px;
         background-size: contain;
         padding:2px;
+        animation: none;
    }
     #hero-outer-two{
         height: 250px;
@@ -603,24 +605,29 @@ iframe {
         height:250px;
         background-size: contain;
         padding:2px;
+        animation: none;
    }
     #cover-text {
         left:2px;
-        width:125px;
-        height:160px;
-        font-size: 20px;
+        width:130px;
+        height:175px;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
    }
     #cover-text > h2 {
-        font-size: 16px;
+        font-size: 14px;
    }
     #cover-text-two {
         left: 2px;
-        width:140px;
-        height: 160px;
+        width:130px;
+        height: 135px;
         font-size: 16px;
+        padding: 0;
+        margin: 0;
    }
     #cover-text-two > h2 {
-        font-size: 20px;
+        font-size: 14px;
    }
     footer {
         height: 55px;
@@ -629,13 +636,24 @@ iframe {
    }
     footer > p {
         font-size: 12px;
+        padding:0;
+        vertical-align: middle;
    }
     .social-networks > li {
         font-size: 12px;
-        padding: 5px 5px;
+        padding: 5px 2px;
    }
     .social-networks i {
         padding: 4px 0;
         padding-top: 15px;
    }
+}
+
+@media screen and (max-width:385px) {
+    footer {
+        font-size: 10px;
+    }
+    .social-networks > li {
+        font-size: 10px;
+    }
 }
