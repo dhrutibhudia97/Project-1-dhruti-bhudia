@@ -9,6 +9,8 @@ This site is for people who want to make changes in their daily life to feel hea
 - __Logo__
 Has the name of the sight and when clicked takes you back to the homepage. So viewers can go to the homepage without clicking the back button.
 
+![logo-screenshot](https://user-images.githubusercontent.com/107180641/187269376-0ffafaac-a4f1-4b89-88f7-ab1ea6f27534.png)
+
 - __Navigation Bar__
 Takes viewers to the different pages when clicked. So viewers don't have to click the back button. The page you are on stays underlined so viewers know which page they are on. When hovering over a page it is highlighted turquoise. The three pages are Home, Mind (things to help your wellbeing and mental health), and Body (physical activities you can do to benefit you).
 
@@ -97,11 +99,8 @@ All of the features discussed above also work on different screen sizes: desktop
 
 ### Unfixed bugs (NEEDS TO BE COMPLETED)
 
-- Don't know how to leave text/url alternatives to images or videos if they don't load.
-USE ARIA LABELS...
-- media queries for the screen sizes between standard screen sizes (e.g. large ipads or small phones) text and pictures don't take up space efficiently, scroll bar may be in place.)
-MAKE SURE SCREEN CONTENT IS NOT BIGGER THAN VIEWPORT. 
-
+- When using aria-labels to provide alternative text to hero images, it removed the cover-text box, so chose the cover-text-box over aria labels as it provides information related to the image, if that didn't load.
+ 
 - When I centered the  footer using ".social-networks > li {display:inline-block;}" and getting rid of the padding and margins, this would get inherited and ruin format for the text and image layout.
 
  

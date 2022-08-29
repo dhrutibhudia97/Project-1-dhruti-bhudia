@@ -155,7 +155,7 @@ h2, h3, p, ul {
 #stress-pic {
     background-image: url(../images/a_stressed_man.jpg);
     height: 290px;
-    width:340px;
+    width:230px;
     background-size: contain;
     background-repeat: no-repeat;
     float:right;
@@ -290,7 +290,7 @@ h2, h3, p, ul {
 #sleep-pic {
     background: url(../images/sleeping_habits.jpg) no-repeat center center;
     height:300px;
-    width: 410px;
+    width: 210px;
     background-size: contain;
     float:none;
     display: inline-block;
@@ -330,9 +330,12 @@ iframe {
 #exercise-pic-panel {
     float:none;
     display: block;
+    margin:0;
+    padding:0;
     /*margin-left: auto;
     margin-right: auto;*/
 }
+
 #woman-stretching-pic {
     background: url(../images/woman_doing_situp.jpg) no-repeat center center;
     height: 190px;
@@ -433,23 +436,23 @@ iframe {
    }
     #cover-text {
         left:70px;
-        width:200px;
-        height:250px;
+        width:210px;
+        height:265px;
         font-size:80%;
    }
     #cover-text-two {
         left: 130px;
         width:250px;
-        height: 140px;
+        height: 160px;
         font-size: 80%;
    }
     #hero-outer-one{
         height: 400px;
-        background-size: contain;
+        background-size: cover;
    }
     #hero-image-one {
         height:400px;
-        background-size: contain;
+        background-size: cover;
    }
     #stress-text {
         text-align: center;
@@ -468,6 +471,7 @@ iframe {
    }
     footer {
         padding:5px 3px;
+    
    }
     .social-networks i {
         margin: 1%;
@@ -479,7 +483,7 @@ iframe {
         float: left;
         padding-left:2px;
         text-align: center;
-        font-size: 80%;
+        font-size: 16px;
    }
    /* Mind Page */
     #hero-outer-two{
@@ -488,7 +492,7 @@ iframe {
    }
     #hero-image-two {
         height:340px;
-        background-size: contain;
+        background-size: cover;
    }
     #cover-text-two {
         left:30px;
@@ -520,8 +524,12 @@ iframe {
    /* body page */
     #exercise-pic-panel {
         width:100%;
-        padding: 3px;
-        margin: 10px 25px;
+        /*padding: 3px;
+        margin: 10px 25px;*/
+   }
+   td > #exercise-pic-panel {
+    margin: 0;
+    padding: 0;
    }
     #woman-stretching-pic {
         float:left;
@@ -584,31 +592,31 @@ iframe {
         width:250px;
         height:200px;
    }
-    #hero-outer-one{
+    /*#hero-outer-one{
         height: 250px;
         background-size: contain;
         padding: 2px;
         
-   }
+   }*/
     #hero-image-one {
-        height:250px;
+        height:240px;
         background-size: contain;
-        padding:2px;
+        padding:0px;
         animation: none;
    }
-    #hero-outer-two{
+   /* #hero-outer-two{
         height: 250px;
         background-size: contain;
         padding: 2px;
-   }
+   }*/
     #hero-image-two {
-        height:250px;
+        height:240px;
         background-size: contain;
-        padding:2px;
+        padding:0px;
         animation: none;
    }
     #cover-text {
-        left:2px;
+        left: 15px;
         width:130px;
         height:175px;
         font-size: 16px;
@@ -619,7 +627,7 @@ iframe {
         font-size: 14px;
    }
     #cover-text-two {
-        left: 2px;
+        left: 15px;
         width:130px;
         height: 135px;
         font-size: 16px;
@@ -647,6 +655,21 @@ iframe {
         padding: 4px 0;
         padding-top: 15px;
    }
+
+   #woman-stretching-pic {
+    width:210px;
+    height: 160px;
+    
+    }
+#sweaty-woman-pic {
+    width:210px;
+    height: 160px;
+    }
+#plank-pic {
+    width:210px;
+    height: 160px;
+    }
+
 }
 
 @media screen and (max-width:385px) {
