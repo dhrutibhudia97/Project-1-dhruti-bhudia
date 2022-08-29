@@ -91,16 +91,22 @@ Shows users that bloating is common and not a reason to feel de-motivated to exe
 
 ### Validator Testing
 - HTML
-  No errors found when using HTML validator - "https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhrutibhudia97.github.io%2FProject-1-dhruti-bhudia%2F".
+  No errors found when using HTML validator - "https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhrutibhudia97.github.io%2FProject-1-dhruti-bhudia%2F"
+
+  ![html_validator_screenshot](https://user-images.githubusercontent.com/107180641/187301938-be9934ee-7812-4ceb-a0aa-5a020053f9d4.png)
 
 - CSS
   No errors found when using CSS validator - "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdhrutibhudia97.github.io%2FProject-1-dhruti-bhudia%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en".
+
+  ![CSS_validator_screenshot](https://user-images.githubusercontent.com/107180641/187302574-45fa6923-3920-4566-abf5-0453b8df867f.png)
 
 
 ### Unfixed bugs 
 - When using aria-labels to provide alternative text to hero images, it removed the cover-text box, so I chose the cover-text-box over aria labels as it provides information related to the image if the hero image doesn't load.
  
 - When I centered the footer using ".social-networks > li {display:inline-block;}" and got rid of the padding and margins, this would get inherited and ruin the text and image layout, so I have chosen to decrease the font size in the footer with the screen size.
+
+- On screens smaller than 768px, images are not aligned to centre of the screen. Auto margin-left and margin-right did not centre the images to the text in the same section.
 
 
 ### Deployment

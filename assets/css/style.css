@@ -5,12 +5,11 @@ body {
     font-weight: 300;
     margin-bottom: 70px;
     overflow-x: hidden;
-    max-width: 99%;   
+    max-width: 99%;
 }
 section {
     max-width:100%;
 }
-
 /* Footer */
 footer {
     background-color:#d3d3d3;
@@ -41,15 +40,13 @@ footer {
     padding-top: 20px;
     color:#7578ae;
 }
-
 /*Logo and Navigation Bar */
 h1 {
-   font-family: sans-serif;
+    font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color:rgb(80, 158, 158);
 }
-
 /*logo */
 #logo {
     float:left;
@@ -57,7 +54,6 @@ h1 {
     margin-left: 20px;
     margin-top: 7px;
 }
-
 /* navigation links */
 #menu {
     font-size: 120%;
@@ -90,10 +86,9 @@ h2 {
 h2, h3, p {
     padding: 10px 20px;
 }
- ul {
+ul {
     padding:3px 20px;
- }
-
+}
 
 /*Home Page */
 /*Hero image */
@@ -119,13 +114,12 @@ h2, h3, p {
 /* Creates the level of zoom for hero image 1 */
 @keyframes hero-zoom {
     from{
-       transform: scale(0.8);
+        transform: scale(0.8);
    }
     to{
-       transform: scale(1.0);
+        transform: scale(1.0);
    }
 }
-
 /* Cover text box */
 #cover-text {
     color:#000000;
@@ -139,7 +133,6 @@ h2, h3, p {
     left: 75px;
     position: absolute;
 }
-
 /* Stress section */
 #stress {
     color:rgb(54, 53, 53);
@@ -162,7 +155,6 @@ h2, h3, p {
     background-repeat: no-repeat;
     float:right;
 }
-
 /* Picture panel */
 #whole-pic-panel {
     text-align: center;
@@ -197,7 +189,6 @@ h2, h3, p {
     background-size: cover;
 }
 
-
 /* Mind Page */
 /*Hero Image */
 #hero-outer-two {
@@ -219,10 +210,10 @@ h2, h3, p {
 /* creates the level of zoom for hero image 2 */
 @keyframes hero-zoom {
     from{
-       transform: scale(0.8);
+        transform: scale(0.8);
    }
     to{
-       transform: scale(1.0);
+        transform: scale(1.0);
    }
 }
 /* cover text two box */
@@ -239,14 +230,12 @@ h2, h3, p {
     left: 150px;
     position: absolute;
 }
-
 /* nature section */
 #nature {
     color:rgb(0, 0, 0);
     background-color: rgba(112, 190, 92, 0.5);
-    width:100%;   
+    width:100%;
 }
-
 /*light section */
 #light {
     color:rgb(0, 0, 0);
@@ -281,7 +270,6 @@ h2, h3, p {
     display:block;
     margin: 2px;
 }
-
 /*sleep section */
 #sleep {
     color:rgb(0, 0, 0);
@@ -297,7 +285,6 @@ h2, h3, p {
     float:none;
     display: inline-block;
 }
-
 /* yoga section */
 #yoga {
     color:rgb(0, 0, 0);
@@ -313,7 +300,6 @@ iframe {
     height:340px;
 }
 
-
 /* Body Page */
 /*Exercise section */
 #exercise {
@@ -324,11 +310,9 @@ iframe {
     margin:auto;
     vertical-align: text-top;
 }
-
 #exercise-pic-panel {
     display: inline-block;
     align-items: center;
-
 }
 #woman-stretching-pic {
     background: url(../images/woman_doing_situp.jpg) no-repeat center center;
@@ -348,7 +332,6 @@ iframe {
     width: 295px;
     background-size:cover;
 }
-
 /*heavy exercise section */
 #heavy-exercise {
     color:rgb(0, 0, 0);
@@ -357,7 +340,6 @@ iframe {
     width:100%;
     clear: both;
 }
-
 /*light exercise section */
 #light-exercise {
     color:rgb(0, 0, 0);
@@ -366,7 +348,6 @@ iframe {
     width:100%;
     clear: both;
 }
-
 /* bloat section */
 #bloat {
     color:rgb(0, 0, 0);
@@ -391,6 +372,7 @@ iframe {
 }
 
 
+/* Media Queries */
 @media screen and (max-width:1024px) {
    /* iframes styling */
     iframe {
@@ -398,10 +380,7 @@ iframe {
    }
 }
 
-
-/* Media Queries */
 /* For medium screens sized between 768px (tablet) wide and 480px (phone) */
-
 /* Header, Footer, and Home page */
 @media screen and (max-width:768px) {
     #logo {
@@ -418,7 +397,7 @@ iframe {
         text-align: center;
    }
     div {
-       display: block;
+        display: block;
    }
     #menu {
         clear:left;
@@ -464,7 +443,6 @@ iframe {
    }
     footer {
         padding:5px 3px;
-    
    }
     .social-networks i {
         margin: 1%;
@@ -478,7 +456,6 @@ iframe {
         text-align: center;
         font-size: 16px;
    }
-
    /* Mind Page */
     #hero-outer-two{
         height: 340px;
@@ -514,15 +491,14 @@ iframe {
         text-align: left;
         margin:auto 7%;
    }
-
    /* Body Page */
     #exercise-pic-panel {
         width:100%;
    }
-   td > #exercise-pic-panel {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    td > #exercise-pic-panel {
+        margin: 0;
+        padding: 0;
+        text-align: center;
    }
     #woman-stretching-pic {
         float:left;
@@ -550,7 +526,6 @@ iframe {
         background-size: cover;
    }
 }
-
 
 /* max width 480px - from smaller phone screen */
 @media screen and (max-width:480px) {
@@ -593,8 +568,8 @@ iframe {
         padding:0px;
         animation: none;
    }
-   #hero-outer-one{
-    height: 240px;
+    #hero-outer-one{
+        height: 240px;
    }
     #hero-image-two {
         height:240px;
@@ -602,8 +577,8 @@ iframe {
         padding:0px;
         animation: none;
    }
-   #hero-outer-two{
-    height: 240px;
+    #hero-outer-two{
+        height: 240px;
    }
     #cover-text {
         left: 15px;
@@ -645,27 +620,26 @@ iframe {
         padding: 4px 0;
         padding-top: 15px;
    }
-   #woman-stretching-pic {
-    width:210px;
-    height: 160px;
-    }
-#sweaty-woman-pic {
-    width:210px;
-    height: 160px;
-    }
-#plank-pic {
-    width:210px;
-    height: 160px;
-    }
-
+    #woman-stretching-pic {
+        width:210px;
+        height: 160px;
+   }
+    #sweaty-woman-pic {
+        width:210px;
+        height: 160px;
+   }
+    #plank-pic {
+        width:210px;
+        height: 160px;
+   }
 }
 
-
+/* Max screen width 385px - small smartphones */
 @media screen and (max-width:385px) {
     footer {
         font-size: 10px;
-    }
+   }
     .social-networks > li {
         font-size: 10px;
-    }
+   }
 }
