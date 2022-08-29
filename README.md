@@ -2,7 +2,12 @@
 
 This site is for people who want to make changes in their daily life to feel healthier physically and mentally. It provides them with information, advice, and video tutorials to be able to start making small changes from the comfort of their home. This will benefit people who may want to make changes to improve their health or wellbeing but may not find the time or have the money to join a gym or buy expensive equipment, or feel too intimidated to do so. This website helps them learn more about the aspects involved in healthy well-being, good quality sleep, and how to start implementing this into their daily routine.
 
-/* insert SCREEN SHOT of the 3 different pages (maybe on different sized screens*/
+![desktop_screen](https://user-images.githubusercontent.com/107180641/187310267-fcd3e822-17b8-4885-a8d7-cca5c0468a89.png)
+
+![tablet_screen](https://user-images.githubusercontent.com/107180641/187310291-0057a87d-b76b-479e-9d45-72822f8211c2.png)
+
+![mobile_screen](https://user-images.githubusercontent.com/107180641/187310241-0b415cb8-a701-4cbe-b30f-3c7108bd9fa2.png)
+
 
 ## Features
 
@@ -14,51 +19,54 @@ Has the name of the sight "Health at Home" and when clicked takes you back to th
 - __Navigation Bar__
 Takes viewers to the different pages when clicked. The page you are on stays underlined so viewers know which page they are on. When hovering over a page it is highlighted turquoise. The three pages are Home, Mind (things to help your well-being and mental health), and Body (physical activities you can do to benefit you).
 
-![logo_and_navigation_bar_screenshot](https://user-images.githubusercontent.com/107180641/187195354-42d8cb7b-b6d9-4767-be9b-c12f7fc9d87e.png)
+![navigation_menu](https://user-images.githubusercontent.com/107180641/187308780-35bb5dc7-dafc-4376-a974-427d82c09c46.png)
 
 - __Landing Image on home page__
 With zoom-in animation to make the first thing the viewers see when landing on the site eye-catching. On the home page, the picture of a woman doing yoga at home helps viewers to understand the theme of this site quickly.
 This image contains a cover text box that helps explain to the viewer this site's aim, which is to help you achieve a healthier mind and body from your home.
 
-![landing_page_image_on_home_page](https://user-images.githubusercontent.com/107180641/187195977-b3bf6987-5226-48e0-9af0-92af9fb4f376.png)
+![landing_page_image_on_home_page](https://user-images.githubusercontent.com/107180641/187305599-fe371430-93c8-43fa-aff5-58d8bfa5d563.png)
+
 
 - __Stress Section__
 This section on the home page helps viewers understand how easy it is to become stressed and the negative effects of stress. Allowing them to link how important it is that we look after ourselves and with information on the other pages on how we can help combat stress and its negative effects.
 
-![stress_section](https://user-images.githubusercontent.com/107180641/187196275-cc1872c8-9c80-439c-a684-cf0f03b6840d.png)
+![stress_section](https://user-images.githubusercontent.com/107180641/187305820-8fb64078-f101-48fa-81bc-ffd924f11f36.png)
 
 - __Picture Panel__
 A few pictures are at the bottom of the home page to allow viewers a taste of what the website has to offer from eating healthier, being in nature, good sleep quality, and being active.
 
-![picture_panel](https://user-images.githubusercontent.com/107180641/187196515-a39cb3a2-cfc3-4fec-ac7f-181860aa7b01.png)
+![picture_panel](https://user-images.githubusercontent.com/107180641/187306043-f9eb3036-352a-4ba9-8509-b5a65d75e87f.png)
 
 - __Footer__
-The footer at the bottom of the page contains icons for social media platforms Facebook, Instagram, and Twitter and links to these pages so they can share what works for them using "#healthathome".
+The fixed footer remains at the bottom of the viewport so it is always in view by the user. The footer contains icons for social media platforms Facebook, Instagram, and Twitter and links to these pages so they can share what works for them using "#healthathome".
+
+![footer_screenshot](https://user-images.githubusercontent.com/107180641/187306263-d6cf7dd8-8cf9-448c-9730-80b1b76ccf27.png)
 
 - __Landing Image on mind page__
 With zoom-in animation to make the first thing the viewers see when landing on the mind page eye-catching. On the mind page, the picture of a woman walking in nature allows readers to make a connection with this section and the importance of nature for our well-being. Contains a cover text box that reiterates to users how easy it is to make changes.
 
-![landing_page_image_on_mind_page](https://user-images.githubusercontent.com/107180641/187197931-fc88a146-7219-4166-b44f-fba2f58a14bb.png)
+![landing_page_image_on_mind_page](https://user-images.githubusercontent.com/107180641/187307039-cedfb9a8-332b-4326-b23d-34365adc0d74.png)
 
 - __Nature Section__
 This section shows users how easy it is to improve our well-being and that just 2 hours in nature a week has many benefits that are listed.
 
-![nature_section](https://user-images.githubusercontent.com/107180641/187198207-ea9ecd3b-cb59-44b8-b95e-ba8494189067.png)
+![nature_section](https://user-images.githubusercontent.com/107180641/187307246-8580144a-2a7b-4753-bb8f-435d0bb9ec7b.png)
 
 - __Light Section__
 This section shows users the importance of natural light and ways to increase the amount of natural or any light in their day-to-day life.
-![image](https://user-images.githubusercontent.com/107180641/187198402-d59ba44c-5648-47a1-b001-e267ef663172.png)
+
+![light_section](https://user-images.githubusercontent.com/107180641/187307432-84cd5b89-87a9-45d8-9784-9630ae80cdea.png)
 
 - __Sleep Section__
 This section shows users the importance of sleep and how we can improve our sleeping habits to get better quality sleep.
 
-![sleep_section](https://user-images.githubusercontent.com/107180641/187198625-736f6245-fde7-4bec-9417-2161e51ac38c.png)
+![sleep_section](https://user-images.githubusercontent.com/107180641/187307625-7861915c-9b4c-41dd-b04f-bd4d5f95530b.png)
 
 - __Yoga Section__
 This section shows the users the benefits of yoga and how easy it is to get started with a video of a 5-minute yoga routine that you can do from bed. Emphasising to the user how easy it is to make some changes.
 
-![yoga_section](https://user-images.githubusercontent.com/107180641/187199763-85f72e24-e5ca-419b-b8b2-096f5d65c106.png)
-
+![yoga_section](https://user-images.githubusercontent.com/107180641/187307767-b806b613-0833-4388-b3ac-e82eb9aea825.png)
 
 - __iFrames__
 Videos/iframes are used to show viewers quick meditation/exercise routines they can try at home in real-time with the video. 
@@ -66,18 +74,22 @@ Videos/iframes are used to show viewers quick meditation/exercise routines they 
 - __Exercise Section__
 Explains to users why exercise is so important and the benefits of exercising regularly. Also gives users tips on how to ease their way into exercising if they are new to it.
 
-![exercise_section](https://user-images.githubusercontent.com/107180641/187199359-e4d90924-22cc-4594-a0e5-b10eb345aa40.png)
+![exercise_section](https://user-images.githubusercontent.com/107180641/187307987-3ed63831-76b7-4ea8-b1a8-447744a9096a.png)
 
 - __Intense Exercise__
 Shows users that exercising regularly is easy with a video showing a routine you can do at home with no equipment needed.
 
-![intense_exercise_section](https://user-images.githubusercontent.com/107180641/187199538-74d18acb-2761-4b8a-bc9c-4d62fa109059.png)
+![more_intense_exercise_section](https://user-images.githubusercontent.com/107180641/187308146-26eac39b-b013-4fc5-9154-7b7ac0b89e71.png)
 
 - __Less Intense Exercise__
 Shows users a video of a more gentle yoga routine that they can do at home if they want something a bit easier to start with.
 
+![less_intense_exercise_section](https://user-images.githubusercontent.com/107180641/187308305-d4cd0a2c-db54-4a4b-a34a-6fb46c18c0c4.png)
+
 - __Bloating Section__
 Shows users that bloating is common and not a reason to feel de-motivated to exercise. Gives tips to help with bloating.
+
+![bloat_section](https://user-images.githubusercontent.com/107180641/187308540-cf118dd4-bbbc-41dd-994b-ade9605ff316.png)
 
 ## Testing
 
