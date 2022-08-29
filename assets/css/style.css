@@ -4,12 +4,16 @@ body {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 70px;
-    max-width: 100%;
     overflow-x: hidden;
-    padding:5px 10px;
+    /*padding:5px 10px; */
+    max-width: 99%;
+    
 }
+
+
 section {
     max-width:100%;
+    /*padding:15px;*/
 }
 /* Footer */
 
@@ -20,19 +24,20 @@ footer {
     font-size: 14px;
     height: 60px;
     left: 0;
+    padding: 5px;
     position: fixed;
     text-align: center;
     width: 100%;
 }
     
-.social-networks {
+.social-networks{
     margin: auto;
-    text-align: center;
-    padding: 0;
 }
 .social-networks > li {
     align-items: center;
-    display: inline-block;
+    display: inline;
+    float:left;
+    padding:5px 25px;
     position: relative;
     text-align: center;
 }
@@ -85,6 +90,10 @@ h2 {
     color:#000000;
     font-size: 24px;
 }
+h2, h3, p, ul {
+    padding: 10px 20px;
+}
+
 /*Home Page */
 /*Hero image */
 #hero-outer-one {
@@ -133,12 +142,12 @@ h2 {
     color:rgb(54, 53, 53);
     background-color: rgb(136, 192, 211,.5);
     width:100%;
-    padding:10px 0;
+    /*padding:10px 0;*/
     margin-top: 15px;
 }
 #stress-text {
     color:rgb(54, 53, 53);
-    padding: 10px;
+    /*padding:10px; */
     float:left;
     width: 60%;
     text-align:inherit;
@@ -228,8 +237,8 @@ h2 {
     color:rgb(0, 0, 0);
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
-    padding:10px 30px;
-    margin: auto;
+   /* padding:10px 30px; */
+    
 }
 /*light section */
 #light {
@@ -238,11 +247,11 @@ h2 {
     width:100%;
    /*clear: both;
    */
-    margin:auto;
-    padding: 10px 30px;
+    /*margin:auto;
+    padding:10px 30px; */
 }
 #light-text {
-    padding:10px 30px;
+    /*padding:10px 30px; */
     text-align: left;
     float: left;
     text-align-last: auto;
@@ -276,7 +285,7 @@ h2 {
     margin:auto;
     background-color: rgba(159, 161, 241, .8);
     width:100%;
-    padding:10px 30px;
+    /*padding:10px 30px;*/
 }
 #sleep-pic {
     background: url(../images/sleeping_habits.jpg) no-repeat center center;
@@ -287,7 +296,7 @@ h2 {
     display: inline-block;
 }
 #sleep-text {
-    padding:10px 30px;
+    /*padding:10px 30px;*/
 }
 /* yoga section */
 #yoga {
@@ -295,7 +304,7 @@ h2 {
     margin:auto;
     background-color: rgba(208, 159, 241, 0.8);
     width:100%;
-    padding:10px 30px;
+    /*padding:10px 30px;*/
 }
 #yoga-text {
     min-width: 45%;
@@ -311,18 +320,18 @@ iframe {
     color:rgb(0, 0, 0);
     background-color: rgba(176, 146, 247, 0.8);
     width:100%;
-    padding: 10px 30px;
+    /*padding:10px 30px;*/
     margin:auto;
     vertical-align: text-top;
 }
 #exercise-text {
-    padding:10px 30px;
+    /*padding:10px 30px;*/
 }
 #exercise-pic-panel {
     float:none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 #woman-stretching-pic {
     background: url(../images/woman_doing_situp.jpg) no-repeat center center;
@@ -348,11 +357,11 @@ iframe {
     margin:auto;
     background-color: rgba(99, 157, 243, 0.8);
     width:100%;
-    padding:10px 30px;
+    /*padding:10px 30px;*/
     clear: both;
 }
 #heavy-exercise-text {
-    padding:10px 30px;
+    /*padding:10px 30px;*/
 }
 /*light exercise section */
 #light-exercise {
@@ -360,7 +369,7 @@ iframe {
     margin:auto;
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
-    padding:10px 30px;
+    /*padding:10px 30px;*/
     clear: both;
 }
 /* bloat section */
@@ -369,7 +378,7 @@ iframe {
     margin:auto;
     background-color: rgba(113, 203, 223, 0.829);
     width:100%;
-    padding:10px 30px;
+    /*padding:10px 30px;*/
     clear: both;
 }
 #bloat-pic {
@@ -387,7 +396,7 @@ iframe {
     display: inline-block;
 }
 #bloat-text{
-    padding:10px 30px;
+    /*padding:10px 30px;*/
 }
 @media screen and (max-width:1024px) {
    /* iframes styling */
@@ -409,7 +418,7 @@ iframe {
         line-height: 60px;
    }
     body {
-        margin-bottom: 45px;
+        margin-bottom: 65px;
         text-align: center;
    }
     div {
@@ -457,7 +466,20 @@ iframe {
         height:200px;
         width: 300px;
    }
-   
+    footer {
+        padding:5px 3px;
+   }
+    .social-networks i {
+        margin: 1%;
+        padding-top: 10px;
+   }
+    .social-networks > li {
+        display: inline;
+        align-items: center;
+        float: left;
+        padding-left:2px;
+        text-align: center;
+        font-size: 80%;
    }
    /* Mind Page */
     #hero-outer-two{

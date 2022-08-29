@@ -96,11 +96,15 @@ All of the features discussed above also work on different screen sizes: desktop
 
 
 ### Unfixed bugs (NEEDS TO BE COMPLETED)
-- Footer content is not centered.
-- Don't know how to leave text/url alternatives to images or videos if they don't load.
-- media queries for the screen sizes between standard screen sizes (e.g. large ipads or small phones) text and pictures don't take up space efficiently, scroll bar may be in place.) 
 
- * Mention any ERRORS/BUGS discovered during the test, even if you haven't addressed them yet. e.g. centering of footer content issue...*
+- Don't know how to leave text/url alternatives to images or videos if they don't load.
+USE ARIA LABELS...
+- media queries for the screen sizes between standard screen sizes (e.g. large ipads or small phones) text and pictures don't take up space efficiently, scroll bar may be in place.)
+MAKE SURE SCREEN CONTENT IS NOT BIGGER THAN VIEWPORT. 
+
+- When I centered the  footer using ".social-networks > li {display:inline-block;}" and getting rid of the padding and margins, this would get inherited and ruin format for the text and image layout.
+
+ 
 
 
 ### Deployment
