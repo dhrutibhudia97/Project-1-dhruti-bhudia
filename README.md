@@ -110,7 +110,7 @@ Shows users that bloating is common and not a reason to feel de-motivated to exe
 
   ![CSS_validator_screenshot](https://user-images.githubusercontent.com/107180641/187302574-45fa6923-3920-4566-abf5-0453b8df867f.png)
 
-- Navigation of the website was tested using Lighthouse.
+- Navigation of the website was tested using Lighthouse. It got an accessibility score of 96.
 
 ![lighthouse_screenshot](https://user-images.githubusercontent.com/107180641/187389200-c7000444-eb9f-4a5c-8f36-4ff152859028.png)
 
