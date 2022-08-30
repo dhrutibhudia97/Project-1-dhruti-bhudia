@@ -89,7 +89,7 @@ Shows users that bloating is common and not a reason to feel de-motivated to exe
 
 ## Testing
 
--I have tested that this website works on different browsers:Chrome, Microscoft Edge and Safari.
+- I have tested that this website works on different browsers:Chrome, Microscoft Edge and Safari.
 
 - All of the features in this project work as intended. Clicking the logo takes you back to the home page. Clicking on each option on the menu takes you to the intended pages. Clicking the social media icons on the footer also takes you to the home pages of these different social media websites. 
 
@@ -147,7 +147,7 @@ This section will refer to where I got my text content, media images, videos, an
 - The text for the bloat section on the body page was taken from "https://www.nhs.uk/conditions/bloating/#:~:text=The%20most%20common%20reason%20for,constipation".
 - Icons from the footer and subheadings are taken from (font awesome) "https://fontawesome.com/".
 
-#### Technologies
+### Technologies
 These are all of the sources used to make this website:
 - HTML
 - CSS
@@ -165,7 +165,7 @@ These are all of the sources used to make this website:
 
 
 ### Acknowledgements
--Project meetings with my mentor Sandeep Aggarwal who helped me fix my formatting issues with media queries for different-sized screens and aligning pictures horizontally.
+- Project meetings with my mentor Sandeep Aggarwal who helped me fix my formatting issues with media queries for different-sized screens and aligning pictures horizontally.
 - The Code Institutes "love running module" has been used as a source for design ideas, such as the logo, navigation bar, hero images with zoom-in effect, and footer with icons. - "https://dhrutibhudia97.github.io/love-running-walkthrough-project/"
 - Assistance with containers and margins from this website - "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
 - Assistance with HTML and CSS style guide rules from this website - "https://google.github.io/styleguide/htmlcssguide.html"

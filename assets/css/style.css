@@ -47,14 +47,14 @@ h1 {
     letter-spacing: 4px;
     color:rgb(80, 158, 158);
 }
-/*logo */
+/*Logo */
 #logo {
     float:left;
     font-size:250%;
     margin-left: 20px;
     margin-top: 7px;
 }
-/* navigation links */
+/* Navigation links */
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
@@ -202,12 +202,12 @@ ul {
     height: 600px;
     width:100%;
     background: url(../images/nature_hero_image.jpg) no-repeat center center;
-   /* animates zoom effect on home page */
+   /* Animates zoom effect on home page */
     animation-name: hero-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
 }
-/* creates the level of zoom for hero image 2 */
+/* Creates the level of zoom for hero image 2 */
 @keyframes hero-zoom {
     from{
         transform: scale(0.8);
@@ -216,7 +216,7 @@ ul {
         transform: scale(1.0);
    }
 }
-/* cover text two box */
+/* Cover text two box */
 #cover-text-two {
     font-size: 20px;
     font-family: sans-serif;
@@ -230,13 +230,13 @@ ul {
     left: 150px;
     position: absolute;
 }
-/* nature section */
+/* Nature section */
 #nature {
     color:rgb(0, 0, 0);
     background-color: rgba(112, 190, 92, 0.5);
     width:100%;
 }
-/*light section */
+/*Light section */
 #light {
     color:rgb(0, 0, 0);
     background-color: rgba(240, 238, 137, 0.829);
@@ -270,7 +270,7 @@ ul {
     display:block;
     margin: 2px;
 }
-/*sleep section */
+/*Sleep section */
 #sleep {
     color:rgb(0, 0, 0);
     margin:auto;
@@ -285,7 +285,7 @@ ul {
     float:none;
     display: inline-block;
 }
-/* yoga section */
+/* Yoga section */
 #yoga {
     color:rgb(0, 0, 0);
     margin:auto;
@@ -333,7 +333,7 @@ iframe {
     width: 295px;
     background-size:cover;
 }
-/*heavy exercise section */
+/*Heavy exercise section */
 #heavy-exercise {
     color:rgb(0, 0, 0);
     margin:auto;
@@ -341,7 +341,7 @@ iframe {
     width:100%;
     clear: both;
 }
-/*light exercise section */
+/*Light exercise section */
 #light-exercise {
     color:rgb(0, 0, 0);
     margin:auto;
@@ -349,7 +349,7 @@ iframe {
     width:100%;
     clear: both;
 }
-/* bloat section */
+/* Bloat section */
 #bloat {
     color:rgb(0, 0, 0);
     margin:auto;
@@ -528,7 +528,7 @@ iframe {
    }
 }
 
-/* max width 480px - from smaller phone screen */
+/* Max width 480px - from smaller phone screen */
 @media screen and (max-width:480px) {
     body {
         font-size: 16px;
