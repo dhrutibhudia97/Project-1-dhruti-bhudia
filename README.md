@@ -2,11 +2,7 @@
 
 This site is for people who want to make changes in their daily life to feel healthier physically and mentally. It provides them with information, advice, and video tutorials to be able to start making small changes from the comfort of their home. This will benefit people who may want to make changes to improve their health or wellbeing but may not find the time or have the money to join a gym or buy expensive equipment, or feel too intimidated to do so. This website helps them learn more about the aspects involved in healthy well-being, good quality sleep, and how to start implementing this into their daily routine.
 
-![desktop_screen](https://user-images.githubusercontent.com/107180641/187310267-fcd3e822-17b8-4885-a8d7-cca5c0468a89.png)
-
-![tablet_screen](https://user-images.githubusercontent.com/107180641/187310291-0057a87d-b76b-479e-9d45-72822f8211c2.png)
-
-![mobile_screen](https://user-images.githubusercontent.com/107180641/187310241-0b415cb8-a701-4cbe-b30f-3c7108bd9fa2.png)
+![responsive_to_other_devices](https://user-images.githubusercontent.com/107180641/187386832-a910153c-5596-4362-947a-27a291f596ff.png)
 
 
 ## Features
@@ -93,13 +89,15 @@ Shows users that bloating is common and not a reason to feel de-motivated to exe
 
 ## Testing
 
+-I have tested that this website works on different browsers:Chrome, Microscoft Edge and Safari.
+
 - All of the features in this project work as intended. Clicking the logo takes you back to the home page. Clicking on each option on the menu takes you to the intended pages. Clicking the social media icons on the footer also takes you to the home pages of these different social media websites. 
 
 - The videos on the mind and body page work and users have control over playing the video. If the video doesn't load, they will be able to click the URL to watch the video.
 
 - The hero images with the zoom-in effect on the home and mind page work as intended, and there is no animation of the hero image for screens smaller than 480px to help with formatting and to not overcrowd the screen.
 
-- All of the features discussed above also work on different screen sizes: desktops (1024px), tablets (768px), and smartphones (480px and lower). The images and text also change size to support the screens viewport.
+- All of the features discussed above also work on different screen sizes: desktops (1024px), tablets (768px), and smartphones (480px and lower). The images and text also change size to support the screens viewport, this was tested using devtools.
 
 ### Validator Testing
 - HTML
@@ -111,6 +109,10 @@ Shows users that bloating is common and not a reason to feel de-motivated to exe
   No errors found when using CSS validator - "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdhrutibhudia97.github.io%2FProject-1-dhruti-bhudia%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en".
 
   ![CSS_validator_screenshot](https://user-images.githubusercontent.com/107180641/187302574-45fa6923-3920-4566-abf5-0453b8df867f.png)
+
+- Navigation of the website was tested using Lighthouse.
+
+![lighthouse_screenshot](https://user-images.githubusercontent.com/107180641/187389200-c7000444-eb9f-4a5c-8f36-4ff152859028.png)
 
 
 ### Unfixed bugs 
